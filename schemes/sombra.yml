@@ -13,6 +13,6 @@ base09: "f8f8fb" # orange
 base0A: "f8f8fb" # yellow
 base0B: "f92672" # green
 base0C: "f8f8fb" # cyan
-base0D: "f8f8fb" # blue
+base0D: "f92672" # blue
 base0E: "f8f8fb" # magenta
 base0F: "f8f8fb" # dark red
