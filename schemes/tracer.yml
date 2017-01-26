@@ -1,4 +1,4 @@
-scheme: "Sombra"
+scheme: "Tracer"
 author: "Jon Q (http://jonquach.com)"
 base00: "141820"
 base01: "181e28"
@@ -11,8 +11,8 @@ base07: "f9f9fb"
 base08: "b3b3b6" # red
 base09: "f8f8fb" # orange
 base0A: "f8f8fb" # yellow
-base0B: "f92672" # green
+base0B: "fd9727" # green
 base0C: "f8f8fb" # cyan
-base0D: "f92672" # blue
-base0E: "f92672" # magenta
+base0D: "fd9727" # blue
+base0E: "fd9727" # magenta
 base0F: "f8f8fb" # dark red
