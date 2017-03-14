@@ -1,0 +1,19 @@
+scheme: "Solr"
+author: "Jon Q (http://jonquach.com)"
+base00: "002b36" # shade 1
+base00: "073642" # shade 1
+base01: "073642" # shade 1
+base02: "586e75" # shade 1
+base03: "657b83" # shade 2
+base04: "dad4c2" # shade 2
+base05: "eee8d6" # shade 2
+base06: "fdf6e3" # shade 2
+base07: "fdf6e3" # shade 2
+base08: "fdf6e3" # red
+base09: "fdf6e3" # orange
+base0A: "fdf6e3" # yellow
+base0B: "fdf6e3" # green
+base0C: "fdf6e3" # cyan
+base0D: "fdf6e3" # blue
+base0E: "fdf6e3" # magenta
+base0F: "fdf6e3" # dark red
