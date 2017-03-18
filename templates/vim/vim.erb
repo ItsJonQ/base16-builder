@@ -18,10 +18,10 @@ endif
 " GUI color definitions
 <% if @monochrome %>
 let s:gui00 = "<%= @base["00"]["hex"] %>"
-let s:gui01 = "<%= @base["01"]["hex"] %>"
+let s:gui01 = "<%= @base["00"]["hex"] %>"
 <% else %>
 let s:gui00 = "<%= @base["00"]["hex"] %>"
-let s:gui01 = "<%= @base["00"]["hex"] %>"
+let s:gui01 = "<%= @base["01"]["hex"] %>"
 <% end %>
 let s:gui02 = "<%= @base["02"]["hex"] %>"
 let s:gui03 = "<%= @base["03"]["hex"] %>"
