@@ -16,8 +16,13 @@ if !has('gui_running')
 endif
 
 " GUI color definitions
+<% if @monochrome %>
 let s:gui00 = "<%= @base["00"]["hex"] %>"
 let s:gui01 = "<%= @base["01"]["hex"] %>"
+<% else %>
+let s:gui00 = "<%= @base["00"]["hex"] %>"
+let s:gui01 = "<%= @base["00"]["hex"] %>"
+<% end %>
 let s:gui02 = "<%= @base["02"]["hex"] %>"
 let s:gui03 = "<%= @base["03"]["hex"] %>"
 let s:gui04 = "<%= @base["04"]["hex"] %>"
