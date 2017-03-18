@@ -1,0 +1,22 @@
+scheme: "Clu"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+
+base00: "000000" # shade 1
+base01: "222222" # shade 1
+base02: "444444" # shade 1
+base03: "666666" # shade 1
+
+base04: "ff8c00" # shade 2
+base05: "ff8c00" # shade 2
+base06: "ff8c00" # shade 2
+base07: "ff8c00" # shade 2
+
+base08: "ff8c00" # red
+base09: "ff8c00" # orange
+base0A: "ff8c00" # yellow
+base0B: "ff8c00" # green
+base0C: "ff8c00" # cyan
+base0D: "ff8c00" # blue
+base0E: "ff8c00" # magenta
+base0F: "ff8c00" # dark red
