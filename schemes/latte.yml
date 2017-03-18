@@ -1,0 +1,22 @@
+scheme: "Latte"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+
+base00: "3b3228" # shade 1
+base01: "534636" # shade 1
+base02: "645240" # shade 1
+base03: "7e705a" # shade 1
+
+base04: "b8afad" # shade 2
+base05: "d0c8c6" # shade 2
+base06: "e9e1dd" # shade 2
+base07: "e9e1dd" # shade 2
+
+base08: "e9e1dd" # red
+base09: "e9e1dd" # orange
+base0A: "e9e1dd" # yellow
+base0B: "e9e1dd" # green
+base0C: "e9e1dd" # cyan
+base0D: "e9e1dd" # blue
+base0E: "e9e1dd" # magenta
+base0F: "e9e1dd" # dark red

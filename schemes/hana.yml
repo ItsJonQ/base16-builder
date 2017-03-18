@@ -1,0 +1,22 @@
+scheme: "Hana"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+
+base00: "282c34"
+base01: "2c323c"
+base02: "4f5b66"
+base03: "65737e"
+
+base04: "a7adba"
+base05: "c0c5ce"
+base06: "dfe1e8"
+base07: "eff1f5"
+
+base08: "eff1f5" # red
+base09: "eff1f5" # orange
+base0A: "eff1f5" # yellow
+base0B: "eff1f5" # green
+base0C: "eff1f5" # cyan
+base0D: "eff1f5" # blue
+base0E: "eff1f5" # magenta
+base0F: "eff1f5" # dark red
