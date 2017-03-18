@@ -1,6 +1,6 @@
 scheme: "Solr"
 author: "Jon Q (http://jonquach.com)"
-base00: "002b36" # shade 1
+# base00: "002b36" # shade 1
 base00: "073642" # shade 1
 base01: "073642" # shade 1
 base02: "586e75" # shade 1

@@ -1,0 +1,23 @@
+scheme: "Commodore"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+
+# dark
+base00: "3e31a2"
+
+# light
+base01: "8074dd"
+base02: "8074dd"
+base03: "8074dd"
+base04: "8074dd"
+base05: "8074dd"
+base06: "8074dd"
+base07: "8074dd"
+base08: "8074dd"
+base09: "8074dd"
+base0A: "8074dd"
+base0B: "8074dd"
+base0C: "8074dd"
+base0D: "8074dd"
+base0E: "8074dd"
+base0F: "8074dd"

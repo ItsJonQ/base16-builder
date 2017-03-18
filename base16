@@ -80,6 +80,10 @@ class Theme
     @scheme = scheme_data["scheme"]
     @author = scheme_data["author"]
     @slug = slug(scheme_data["scheme"])
+    @monochrome = false
+    if scheme_data.key?("monochrome")
+      @monochrome = scheme_data["monochrome"]
+    end
 
     # Define ERB color vars
     @base = {}
