@@ -1,0 +1,23 @@
+scheme: "Firewatch"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+plus: true
+
+base00: "191e1e" # shade 1
+base01: "1e2323" # shade 1
+base02: "2d3232" # shade 1
+base03: "414646" # shade 1
+
+base04: "dc6464" # shade 2
+base05: "dc6464" # shade 2
+base06: "dc6464" # shade 2
+base07: "dc6464" # shade 2
+
+base08: "dc6464" # red
+base09: "dc6464" # orange
+base0A: "dc6464" # yellow
+base0B: "dc6464" # green
+base0C: "dc6464" # cyan
+base0D: "dc6464" # blue
+base0E: "dc6464" # magenta
+base0F: "dc6464" # dark red

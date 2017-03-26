@@ -1,0 +1,23 @@
+scheme: "Drake"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+plus: true
+
+base00: "191e1e" # shade 1
+base01: "1e2323" # shade 1
+base02: "2d3232" # shade 1
+base03: "414646" # shade 1
+
+base04: "d2a0c8" # shade 2
+base05: "d2a0c8" # shade 2
+base06: "d2a0c8" # shade 2
+base07: "d2a0c8" # shade 2
+
+base08: "d2a0c8" # red
+base09: "d2a0c8" # orange
+base0A: "d2a0c8" # yellow
+base0B: "d2a0c8" # green
+base0C: "d2a0c8" # cyan
+base0D: "d2a0c8" # blue
+base0E: "d2a0c8" # magenta
+base0F: "d2a0c8" # dark red
