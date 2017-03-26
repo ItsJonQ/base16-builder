@@ -1,0 +1,23 @@
+scheme: "Drac"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+plus: true
+
+base00: "282a36" # shade 1
+base01: "2d2f3b" # shade 1
+base02: "505268" # shade 1
+base03: "64667c" # shade 1
+
+base04: "a0a2cc" # shade 2
+base05: "b4b6e0" # shade 2
+base06: "c8caf4" # shade 2
+base07: "dcdefe" # shade 2
+
+base08: "dcdefe" # red
+base09: "dcdefe" # orange
+base0A: "dcdefe" # yellow
+base0B: "dcdefe" # green
+base0C: "dcdefe" # cyan
+base0D: "dcdefe" # blue
+base0E: "dcdefe" # magenta
+base0F: "dcdefe" # dark red
