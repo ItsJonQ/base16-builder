@@ -1,0 +1,23 @@
+scheme: "Matcha"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+plus: true
+
+base00: "191e1e" # shade 1
+base01: "1e2323" # shade 1
+base02: "414646" # shade 1
+base03: "555a5a" # shade 1
+
+base04: "89e894" # shade 2
+base05: "89e894" # shade 2
+base06: "89e894" # shade 2
+base07: "89e894" # shade 2
+
+base08: "89e894" # red
+base09: "89e894" # orange
+base0A: "89e894" # yellow
+base0B: "89e894" # green
+base0C: "89e894" # cyan
+base0D: "89e894" # blue
+base0E: "89e894" # magenta
+base0F: "89e894" # dark red
