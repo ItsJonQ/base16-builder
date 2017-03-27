@@ -1,0 +1,23 @@
+scheme: "Pink"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+plus: true
+
+base00: "282a36" # shade 1
+base01: "2d2f3b" # shade 1
+base02: "505268" # shade 1
+base03: "64667c" # shade 1
+
+base04: "d79bd7" # shade 2
+base05: "d79bd7" # shade 2
+base06: "d79bd7" # shade 2
+base07: "d79bd7" # shade 2
+
+base08: "d79bd7" # red
+base09: "d79bd7" # orange
+base0A: "d79bd7" # yellow
+base0B: "d79bd7" # green
+base0C: "d79bd7" # cyan
+base0D: "d79bd7" # blue
+base0E: "d79bd7" # magenta
+base0F: "d79bd7" # dark red
