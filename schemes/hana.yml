@@ -1,6 +1,7 @@
 scheme: "Hana"
 author: "Jon Q (http://jonquach.com)"
 monochrome: true
+plus: true
 
 base00: "282c34"
 base01: "2c323c"
