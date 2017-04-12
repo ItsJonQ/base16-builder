@@ -1,4 +1,4 @@
-scheme: "Drac"
+scheme: "Mocha"
 author: "Jon Q (http://jonquach.com)"
 monochrome: true
 plus: true
@@ -13,11 +13,11 @@ base05: "e0b6b4" # shade 2
 base06: "f4cac8" # shade 2
 base07: "fededc" # shade 2
 
-base08: "dcdefe" # red
-base09: "dcdefe" # orange
-base0A: "dcdefe" # yellow
-base0B: "dcdefe" # green
-base0C: "dcdefe" # cyan
-base0D: "dcdefe" # blue
-base0E: "dcdefe" # magenta
-base0F: "dcdefe" # dark red
+base08: "fededc" # red
+base09: "fededc" # orange
+base0A: "fededc" # yellow
+base0B: "fededc" # green
+base0C: "fededc" # cyan
+base0D: "fededc" # blue
+base0E: "fededc" # magenta
+base0F: "fededc" # dark red
