@@ -1,22 +1,23 @@
 scheme: "Classic"
 author: "Jon Q (http://jonquach.com)"
 monochrome: true
+plus: true
 
 base00: "000000" # shade 1
 base01: "222222" # shade 1
 base02: "444444" # shade 1
 base03: "666666" # shade 1
 
-base04: "80de8f" # shade 2
-base05: "80de8f" # shade 2
-base06: "89de8f" # shade 2
-base07: "80de8f" # shade 2
+base04: "31f65c" # shade 2
+base05: "31f65c" # shade 2
+base06: "31f65c" # shade 2
+base07: "31f65c" # shade 2
 
-base08: "80de8f" # red
-base09: "80de8f" # orange
-base0A: "80de8f" # yellow
-base0B: "80de8f" # green
-base0C: "80de8f" # cyan
-base0D: "80de8f" # blue
-base0E: "80de8f" # magenta
-base0F: "80de8f" # dark red
+base08: "31f65c" # red
+base09: "31f65c" # orange
+base0A: "31f65c" # yellow
+base0B: "31f65c" # green
+base0C: "31f65c" # cyan
+base0D: "31f65c" # blue
+base0E: "31f65c" # magenta
+base0F: "31f65c" # dark red
