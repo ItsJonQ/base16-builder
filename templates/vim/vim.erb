@@ -70,11 +70,8 @@ endif
 
 " Theme setup
 hi clear
-<% if @syntax == "off" %>
-syntax off
-<% else %>
 syntax reset
-<% end %>
+
 let g:colors_name = "base16-<%= @slug %>"
 
 " Highlighting function
