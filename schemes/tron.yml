@@ -8,16 +8,16 @@ base01: "222222" # shade 1
 base02: "444444" # shade 1
 base03: "666666" # shade 1
 
-base04: "2196F3" # shade 2
-base05: "2196F3" # shade 2
-base06: "2196F3" # shade 2
-base07: "2196F3" # shade 2
+base04: "28b4ff" # shade 2
+base05: "28b4ff" # shade 2
+base06: "28b4ff" # shade 2
+base07: "28b4ff" # shade 2
 
-base08: "2196F3" # red
-base09: "2196F3" # orange
-base0A: "2196F3" # yellow
-base0B: "2196F3" # green
-base0C: "2196F3" # cyan
-base0D: "2196F3" # blue
-base0E: "2196F3" # magenta
-base0F: "2196F3" # dark red
+base08: "28b4ff" # red
+base09: "28b4ff" # orange
+base0A: "28b4ff" # yellow
+base0B: "28b4ff" # green
+base0C: "28b4ff" # cyan
+base0D: "28b4ff" # blue
+base0E: "28b4ff" # magenta
+base0F: "28b4ff" # dark red
