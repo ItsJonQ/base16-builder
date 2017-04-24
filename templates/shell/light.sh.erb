@@ -105,15 +105,20 @@ if [ -n "$ITERM_SESSION_ID" ]; then
   <% if @monochrome %>
   printf $printf_template_custom Pg <%= @base["00"]["hex"] %> # forground
   printf $printf_template_custom Ph <%= @base["0F"]["hex"] %> # background
+  printf $printf_template_custom Pi <%= @base["00"]["hex"] %> # bold color
+  printf $printf_template_custom Pj <%= @base["02"]["hex"] %> # selection color
+  printf $printf_template_custom Pk <%= @base["00"]["hex"] %> # selected text color
+  printf $printf_template_custom Pl <%= @base["00"]["hex"] %> # cursor
+  printf $printf_template_custom Pm <%= @base["0F"]["hex"] %> # cursor text
   <% else %>
   printf $printf_template_custom Pg <%= @base["05"]["hex"] %> # forground
   printf $printf_template_custom Ph <%= @base["00"]["hex"] %> # background
-  <% end %>
   printf $printf_template_custom Pi <%= @base["05"]["hex"] %> # bold color
   printf $printf_template_custom Pj <%= @base["02"]["hex"] %> # selection color
   printf $printf_template_custom Pk <%= @base["05"]["hex"] %> # selected text color
   printf $printf_template_custom Pl <%= @base["05"]["hex"] %> # cursor
   printf $printf_template_custom Pm <%= @base["00"]["hex"] %> # cursor text
+  <% end %>
 else
   printf $printf_template_var 10 $color_foreground
   printf $printf_template_var 11 $color_background
