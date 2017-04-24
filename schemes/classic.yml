@@ -2,6 +2,7 @@ scheme: "Classic"
 author: "Jon Q (http://jonquach.com)"
 monochrome: true
 plus: true
+syntax: "off"
 
 base00: "000000" # shade 1
 base01: "222222" # shade 1
