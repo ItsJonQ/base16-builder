@@ -4,9 +4,9 @@ monochrome: true
 plus: true
 
 base00: "000000" # shade 1
-base01: "222222" # shade 1
-base02: "444444" # shade 1
-base03: "666666" # shade 1
+base01: "1c1c1c" # shade 1
+base02: "3c3c3c" # shade 1
+base03: "5c5c5c" # shade 1
 
 base04: "ff8c00" # shade 2
 base05: "ff8c00" # shade 2
