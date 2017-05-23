@@ -3,15 +3,15 @@ author: "Jon Q (http://jonquach.com)"
 monochrome: true
 plus: true
 
-base00: "362a28" # shade 1
-base01: "3b2f2d" # shade 1
-base02: "685250" # shade 1
-base03: "7c6664" # shade 1
+base00: "282a36" # shade 1
+base01: "2d2f3b" # shade 1
+base02: "505268" # shade 1
+base03: "64667c" # shade 1
 
-base04: "cca2a0" # shade 2
-base05: "e0b6b4" # shade 2
-base06: "f4cac8" # shade 2
-base07: "fededc" # shade 2
+base04: "a0a2cc" # shade 2
+base05: "b4b6e0" # shade 2
+base06: "c8caf4" # shade 2
+base07: "dcdefe" # shade 2
 
 base08: "dcdefe" # red
 base09: "dcdefe" # orange
