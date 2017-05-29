@@ -82,6 +82,8 @@ class Theme
     @slug = slug(scheme_data["scheme"])
     @monochrome = false
     @statusline = scheme_data["statusline"]
+    @statusline_text = scheme_data["statusline_text"]
+    @statusline_nc_text = scheme_data["statusline_nc_text"]
     if scheme_data.key?("monochrome")
       @monochrome = scheme_data["monochrome"]
     end
@@ -105,6 +107,28 @@ class Theme
     if @statusline
       hex = @statusline
       @base["statusline"] = {
+        "hex" => hex,
+        "hexbgr" => to_hex_bgr(hex),
+        "dhex" => to_dhex(hex),
+        "rgb" => to_rgb(hex),
+        "srgb" => to_srgb(hex)
+      }
+    end
+
+    if @statusline_text
+      hex = @statusline_text
+      @base["statusline_text"] = {
+        "hex" => hex,
+        "hexbgr" => to_hex_bgr(hex),
+        "dhex" => to_dhex(hex),
+        "rgb" => to_rgb(hex),
+        "srgb" => to_srgb(hex)
+      }
+    end
+
+    if @statusline_nc_text
+      hex = @statusline_nc_text
+      @base["statusline_nc_text"] = {
         "hex" => hex,
         "hexbgr" => to_hex_bgr(hex),
         "dhex" => to_dhex(hex),
