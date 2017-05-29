@@ -3,9 +3,9 @@ author: "Jon Q (http://jonquach.com)"
 monochrome: true
 plus: true
 
-statusline: "127acb"
-statusline_text: "ffffff"
-statusline_nc_text: "81b2d2"
+# statusline: "127acb"
+# statusline_text: "ffffff"
+# statusline_nc_text: "81b2d2"
 
 base00: "1e1e1e"
 base01: "252526"
