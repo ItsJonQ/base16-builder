@@ -81,6 +81,7 @@ class Theme
     @author = scheme_data["author"]
     @slug = slug(scheme_data["scheme"])
     @monochrome = false
+    @statusline = scheme_data["statusline"]
     if scheme_data.key?("monochrome")
       @monochrome = scheme_data["monochrome"]
     end
@@ -93,6 +94,17 @@ class Theme
     ].each do |key|
       hex = scheme_data["base" + key];
       @base[key] = {
+        "hex" => hex,
+        "hexbgr" => to_hex_bgr(hex),
+        "dhex" => to_dhex(hex),
+        "rgb" => to_rgb(hex),
+        "srgb" => to_srgb(hex)
+      }
+    end
+
+    if @statusline
+      hex = @statusline
+      @base["statusline"] = {
         "hex" => hex,
         "hexbgr" => to_hex_bgr(hex),
         "dhex" => to_dhex(hex),
