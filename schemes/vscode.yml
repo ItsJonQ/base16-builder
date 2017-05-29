@@ -1,0 +1,23 @@
+scheme: "VSCode"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+plus: true
+
+base00: "1e1e1e"
+base01: "252526"
+base02: "333333"
+base03: "3f3f46"
+
+base04: "cccccc"
+base05: "dddddd"
+base06: "f3f3f3"
+base07: "ffffff"
+
+base08: "ffffff" # red
+base09: "ffffff" # orange
+base0A: "ffffff" # yellow
+base0B: "ffffff" # green
+base0C: "ffffff" # cyan
+base0D: "ffffff" # blue
+base0E: "ffffff" # magenta
+base0F: "ffffff" # dark red
