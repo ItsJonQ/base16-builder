@@ -11,7 +11,7 @@ base05: "dddddd"
 base06: "f3f3f3"
 base07: "ffffff"
 
-base08: "ffffff" # red
+base08: "569cd6" # red
 base09: "ce9178" # orange
 base0A: "ffffff" # yellow
 base0B: "d08770" # green

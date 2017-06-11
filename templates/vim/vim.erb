@@ -341,6 +341,12 @@ call <sid>hi("SpellLocal",   "", s:gui00, "", s:cterm00, "undercurl", s:gui0C)
 call <sid>hi("SpellCap",     "", s:gui00, "", s:cterm00, "undercurl", s:gui0D)
 call <sid>hi("SpellRare",    "", s:gui00, "", s:cterm00, "undercurl", s:gui0E)
 
+" Fix XML for JSX highlighting
+call <sid>hi("Tag",         s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("xmlTag",      s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("xmlTagName",  s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("xmlEndTag",   s:gui0D, "", s:cterm0D, "", "", "")
+
 " Remove functions
 delf <sid>hi
 delf <sid>gui
