@@ -11,10 +11,11 @@ base05: "dddddd"
 base06: "f3f3f3"
 base07: "ffffff"
 
+
 base08: "c88cbe" # red
-base09: "c88cbe" # orange
+base09: "ce9178" # orange
 base0A: "ffffff" # yellow
-base0B: "d08770" # green
+base0B: "c88cbe" # green
 base0C: "569cd6" # cyan
 base0D: "569cd6" # blue
 base0E: "569cd6" # magenta
