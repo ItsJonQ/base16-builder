@@ -75,6 +75,25 @@ class Theme
     abort(read_error_message(template_file))
   end
 
+  def darken(hex_color, amount=0.4)
+    hex_color = hex_color.gsub('#','')
+    rgb = hex_color.scan(/../).map {|color| color.hex}
+    rgb[0] = (rgb[0].to_i * amount).round
+    rgb[1] = (rgb[1].to_i * amount).round
+    rgb[2] = (rgb[2].to_i * amount).round
+    "%02x%02x%02x" % rgb
+  end
+
+  # Amount should be a decimal between 0 and 1. Higher means lighter
+  def lighten(hex_color, amount=0.6)
+    hex_color = hex_color.gsub('#','')
+    rgb = hex_color.scan(/../).map {|color| color.hex}
+    rgb[0] = [(rgb[0].to_i + 255 * amount).round, 255].min
+    rgb[1] = [(rgb[1].to_i + 255 * amount).round, 255].min
+    rgb[2] = [(rgb[2].to_i + 255 * amount).round, 255].min
+    "%02x%02x%02x" % rgb
+  end
+
   def populate_template_variables(scheme_data)
     # Define ERB vars
     @scheme = scheme_data["scheme"]
@@ -97,6 +116,8 @@ class Theme
       hex = scheme_data["base" + key];
       @base[key] = {
         "hex" => hex,
+        "hex_dark" => darken(hex, 0.8),
+        "hex_light" => lighten(hex, 0.2),
         "hexbgr" => to_hex_bgr(hex),
         "dhex" => to_dhex(hex),
         "rgb" => to_rgb(hex),
