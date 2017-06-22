@@ -2,9 +2,9 @@ scheme: "VSBlack"
 author: "Jon Q (http://jonquach.com)"
 
 base00: "000000"
-base01: "1e1e1e"
-base02: "252526"
-base03: "333333"
+base01: "252526"
+base02: "333333"
+base03: "555555"
 
 base04: "bbbbbb"
 base05: "dddddd"
