@@ -1,0 +1,21 @@
+scheme: "VSBlack"
+author: "Jon Q (http://jonquach.com)"
+
+base00: "ffffff"
+base01: "1e1e1e"
+base02: "252526"
+base03: "333333"
+
+base04: "bbbbbb"
+base05: "dddddd"
+base06: "f3f3f3"
+base07: "ffffff"
+
+base08: "c88cbe" # red
+base09: "ce9178" # orange
+base0A: "ffffff" # yellow
+base0B: "d08770" # green
+base0C: "569cd6" # cyan
+base0D: "569cd6" # blue
+base0E: "569cd6" # magenta
+base0F: "569cd6" # dark red

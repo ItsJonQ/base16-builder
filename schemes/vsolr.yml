@@ -1,0 +1,32 @@
+scheme: "VSolr"
+author: "Jon Q (http://jonquach.com)"
+
+base00: "1e1e1e"
+base01: "252526"
+base02: "333333"
+base03: "555555"
+
+# base04: "bbbbbb"
+# base05: "dddddd"
+# base06: "f3f3f3"
+# base07: "ffffff"
+
+# base00: "073642" # shade 1
+# base01: "073642" # shade 1
+# base02: "586e75" # shade 1
+# base03: "657b83" # shade 2
+
+base04: "c8c7bb" # shade 2
+base05: "eee8d6" # shade 2
+base06: "fdf6e3" # shade 2
+base07: "fdf6e3" # shade 2
+
+
+base08: "c88cbe" # red
+base09: "ce9178" # orange
+base0A: "ffffff" # yellow
+base0B: "d08770" # green
+base0C: "569cd6" # cyan
+base0D: "569cd6" # blue
+base0E: "569cd6" # magenta
+base0F: "569cd6" # dark red
