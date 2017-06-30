@@ -1,4 +1,4 @@
-scheme: "One"
+scheme: "VSOne"
 author: "Jon Q (http://jonquach.com)"
 
 # dark
@@ -14,12 +14,11 @@ base06: "dfe1e8"
 base07: "eff1f5"
 
 # colors
-base08: "e06c75" # red
-base09: "d08770" # orange
-# base09: "d09a6a" # orange
-base0A: "f0c674" # yellow
-base0B: "98c379" # green
-base0C: "56b6c2" # cyan
+base08: "c678dd" # red
+base09: "f0c674" # orange
+base0A: "eff1f5" # yellow
+base0B: "d09a6a" # green
+base0C: "61afef" # cyan
 base0D: "61afef" # blue
-base0E: "c678dd" # magenta
-base0F: "be5046" # dark red
+base0E: "61afef" # magenta
+base0F: "61afef" # dark red
