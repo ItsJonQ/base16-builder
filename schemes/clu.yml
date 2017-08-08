@@ -3,10 +3,10 @@ author: "Jon Q (http://jonquach.com)"
 monochrome: true
 plus: true
 
-base00: "000000" # shade 1
-base01: "1c1c1c" # shade 1
-base02: "3c3c3c" # shade 1
-base03: "5c5c5c" # shade 1
+base00: "1e1e1e"
+base01: "252526"
+base02: "333333"
+base03: "555555"
 
 base04: "ff8c00" # shade 2
 base05: "ff8c00" # shade 2
