@@ -1,0 +1,21 @@
+scheme: "Dracula"
+author: "Jon Q (http://jonquach.com)"
+
+base00: "282936" # shade 1
+base01: "3a3c4e" # shade 1
+base02: "4d4f68" # shade 1
+base03: "626483" # shade 1
+
+base04: "62d6e8" # shade 2
+base05: "e9e9f4" # shade 2
+base06: "f1f2f8" # shade 2
+base07: "f7f7fb" # shade 2
+
+base08: "ff79c6" # red
+base09: "ffB86C" # orange
+base0A: "F1FA8C" # yellow
+base0B: "50FA7B" # green / yellow
+base0C: "8BE9FD" # cyan
+base0D: "BD93F9" # blue
+base0E: "FF79C6" # magenta
+base0F: "ff5555" # dark red
