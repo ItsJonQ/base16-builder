@@ -1,10 +1,10 @@
 scheme: "Dracula"
 author: "Jon Q (http://jonquach.com)"
 
-base00: "282936" # shade 1
-base01: "3a3c4e" # shade 1
-base02: "4d4f68" # shade 1
-base03: "626483" # shade 1
+base00: "282a36" # shade 1
+base01: "2d2f3b" # shade 1
+base02: "505268" # shade 1
+base03: "64667c" # shade 1
 
 base04: "62d6e8" # shade 2
 base05: "e9e9f4" # shade 2
