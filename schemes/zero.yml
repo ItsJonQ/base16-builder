@@ -1,17 +1,15 @@
 scheme: "Zero"
 author: "Jon Q (http://jonquach.com)"
 
-# dark
-base00: "282c34"
-base01: "2c323c"
-base02: "4f5b66"
-base03: "65737e"
+base00: "1e1e1e"
+base01: "252526"
+base02: "333333"
+base03: "555555"
 
-# light
-base04: "a7adba"
-base05: "c0c5ce"
-base06: "dfe1e8"
-base07: "eff1f5"
+base04: "bbbbbb"
+base05: "dddddd"
+base06: "f3f3f3"
+base07: "ffffff"
 
 # colors
 base08: "e06c75" # red
