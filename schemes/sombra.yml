@@ -14,8 +14,8 @@ base07: "f9f9fb"
 base08: "b3b3b6" # red
 base09: "f8f8fb" # orange
 base0A: "f8f8fb" # yellow
-base0B: "fb367d" # green
+base0B: "ff79c6" # green
 base0C: "f8f8fb" # cyan
-base0D: "fb367d" # blue
-base0E: "fb367d" # magenta
+base0D: "ff79c6" # blue
+base0E: "ff79c6" # magenta
 base0F: "f8f8fb" # dark red
