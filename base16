@@ -99,12 +99,18 @@ class Theme
     @scheme = scheme_data["scheme"]
     @author = scheme_data["author"]
     @slug = slug(scheme_data["scheme"])
+    @cursor = false
     @monochrome = false
     @statusline = scheme_data["statusline"]
     @statusline_text = scheme_data["statusline_text"]
     @statusline_nc_text = scheme_data["statusline_nc_text"]
+
     if scheme_data.key?("monochrome")
       @monochrome = scheme_data["monochrome"]
+    end
+
+    if scheme_data.key?("cursor")
+      @cursor = scheme_data["cursor"]
     end
 
     # Define ERB color vars

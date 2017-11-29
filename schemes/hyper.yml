@@ -1,0 +1,24 @@
+scheme: "Hyper"
+author: "Jon Q (http://jonquach.com)"
+cursor: "ff0080"
+
+base00: "000000"
+base01: "151516"
+base02: "222222"
+base03: "444444"
+
+base04: "bbbbbb"
+base05: "dddddd"
+base06: "f3f3f3"
+base07: "ffffff"
+
+# colors
+base08: "e06c75" # red
+base09: "d08770" # orange
+# base09: "d09a6a" # orange
+base0A: "f0c674" # yellow
+base0B: "98c379" # green
+base0C: "56b6c2" # cyan
+base0D: "61afef" # blue
+base0E: "c678dd" # magenta
+base0F: "be5046" # dark red
