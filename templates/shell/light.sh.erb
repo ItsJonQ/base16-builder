@@ -114,7 +114,7 @@ if [ -n "$ITERM_SESSION_ID" ]; then
   printf $printf_template_custom Pl <%= @base["00"]["hex"] %> # cursor
   <% end %>
   <% if @cursorText %>
-  printf $printf_template_custom Pl <%= @cursorText %> # cursor
+  printf $printf_template_custom Pm <%= @cursorText %> # cursor
   <% else %>
   printf $printf_template_custom Pm <%= @base["0F"]["hex"] %> # cursor text
   <% end %>
