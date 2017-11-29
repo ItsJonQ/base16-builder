@@ -114,7 +114,7 @@ class Theme
       @cursor = scheme_data["cursor"]
     end
     if scheme_data.key?("cursorText")
-      @cursor = scheme_data["cursorText"]
+      @cursorText = scheme_data["cursorText"]
     end
 
     # Define ERB color vars
