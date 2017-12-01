@@ -1,0 +1,25 @@
+scheme: "Super"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+plus: true
+cursor: "ff0080"
+cursorText: "ffffff"
+
+base00: "000000"
+base01: "151516"
+base02: "222222"
+base03: "444444"
+
+base04: "bbbbbb"
+base05: "dddddd"
+base06: "f3f3f3"
+base07: "ffffff"
+
+base08: "ffffff" # red
+base09: "ffffff" # orange
+base0A: "ffffff" # yellow
+base0B: "ffffff" # green
+base0C: "ffffff" # cyan
+base0D: "ffffff" # blue
+base0E: "ffffff" # magenta
+base0F: "ffffff" # dark red
