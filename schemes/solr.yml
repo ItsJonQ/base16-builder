@@ -3,13 +3,13 @@ author: "Jon Q (http://jonquach.com)"
 monochrome: true
 
 base00: "073642" # shade 1
-base01: "073642" # shade 1
+base01: "174652" # shade 1
 base02: "586e75" # shade 1
 base03: "657b83" # shade 2
 
 base04: "c8c7bb" # shade 2
 base05: "eee8d6" # shade 2
-base06: "fdf6e3" # shade 2
+base06: "f8f0dd" # shade 2
 base07: "fdf6e3" # shade 2
 
 base08: "fdf6e3" # red
