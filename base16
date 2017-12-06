@@ -126,7 +126,7 @@ class Theme
       hex = scheme_data["base" + key];
       @base[key] = {
         "hex" => hex,
-        "hex_dark" => darken(hex, 1),
+        "hex_dark" => darken(hex, 0.8),
         "hex_light" => lighten(hex, 0.2),
         "hexbgr" => to_hex_bgr(hex),
         "dhex" => to_dhex(hex),
