@@ -1,4 +1,4 @@
-b16
+cd ~/base16-builder
 ./base16
 
 # Copy to dotfiles
@@ -9,14 +9,14 @@ git add .
 git commit -m "Update base16-shell"
 git push
 
-b16
+cd ~/base16-builder
 
 # Copy to vim
-# cp -a ./output/vim/. ~/base16-vim/colors
-# sh ~/base16-vim/sync.sh
-# cd ~/base16-vim
-# git add .
-# git commit -m "Update base16-vim"
-# git push
+cp -a ./output/vim/. ~/base16-vim/colors
+sh ~/base16-vim/sync.sh
+cd ~/base16-vim
+git add .
+git commit -m "Update base16-vim"
+git push
 
-# b16
+cd ~/base16-builder
