@@ -13,10 +13,11 @@ cd ~/base16-builder
 
 # Copy to vim
 cp -a ./output/vim/. ~/base16-vim/colors
-sh ~/base16-vim/sync.sh
 cd ~/base16-vim
 git add .
 git commit -m "Update base16-vim"
 git push
+cd ~/.vim/bundle/base16-vim
+git pull
 
 cd ~/base16-builder
