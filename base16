@@ -77,7 +77,8 @@ class Theme
 
   def colorCorrect(hex_color)
     hex_color = hex_color.gsub('#','')
-    amount = 0.98
+    amount = 1
+    # amount = 0.98
     rgb = hex_color.scan(/../).map {|color| color.hex}
     rgb[0] = (rgb[0].to_i * amount).round
     rgb[1] = (rgb[1].to_i * amount).round
