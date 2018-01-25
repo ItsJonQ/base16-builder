@@ -75,6 +75,16 @@ class Theme
     abort(read_error_message(template_file))
   end
 
+  def colorCorrect(hex_color)
+    hex_color = hex_color.gsub('#','')
+    amount = 0.98
+    rgb = hex_color.scan(/../).map {|color| color.hex}
+    rgb[0] = (rgb[0].to_i * amount).round
+    rgb[1] = (rgb[1].to_i * amount).round
+    rgb[2] = (rgb[2].to_i * amount).round
+    "%02x%02x%02x" % rgb
+  end
+
   def darken(hex_color, amount=0.4)
     hex_color = hex_color.gsub('#','')
     rgb = hex_color.scan(/../).map {|color| color.hex}
@@ -125,7 +135,7 @@ class Theme
     ].each do |key|
       hex = scheme_data["base" + key];
       @base[key] = {
-        "hex" => hex,
+        "hex" => colorCorrect(hex),
         "hex_dark" => darken(hex, 0.8),
         "hex_light" => lighten(hex, 0.2),
         "hexbgr" => to_hex_bgr(hex),
