@@ -1,4 +1,4 @@
-scheme: "GH"
+scheme: "GHONE"
 author: "Jon Q (http://jonquach.com)"
 # monochrome: true
 # plus: true
@@ -6,21 +6,23 @@ keepColor: true
 cursor: "50E3C2"
 cursorText: "000000"
 
+# dark
 base00: "282c34"
 base01: "2c323c"
 base02: "4f5b66"
 base03: "65737e"
 
-base04: "bebebe" # shade 2
-base05: "e1e1e1" # shade 2
-base06: "f2f2f2" # shade 2
-base07: "ffffff" # shade 2
+# light
+base04: "a7adba"
+base05: "c0c5ce"
+base06: "dfe1e8"
+base07: "eff1f5"
 
 base08: "990000" # red
-base09: "ffffff" # orange
+base09: "eff1f5" # orange
 base0A: "445588" # yellow
 base0B: "008080" # green
 base0C: "606aa1" # cyan
 base0D: "445588" # blue
-base0E: "ffffff" # magenta
-base0F: "ffffff" # dark red
+base0E: "eff1f5" # magenta
+base0F: "eff1f5" # dark red
