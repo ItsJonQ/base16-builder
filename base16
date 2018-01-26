@@ -113,12 +113,17 @@ class Theme
     @cursor = false
     @cursorText = false
     @monochrome = false
+    @keepColor = false
     @statusline = scheme_data["statusline"]
     @statusline_text = scheme_data["statusline_text"]
     @statusline_nc_text = scheme_data["statusline_nc_text"]
 
     if scheme_data.key?("monochrome")
       @monochrome = scheme_data["monochrome"]
+    end
+
+    if scheme_data.key?("keepColor")
+      @keepColor = scheme_data["keepColor"]
     end
 
     if scheme_data.key?("cursor")
@@ -137,8 +142,8 @@ class Theme
       hex = scheme_data["base" + key];
       @base[key] = {
         "hex" => colorCorrect(hex),
-        "hex_dark" => darken(hex, 0.8),
-        "hex_light" => lighten(hex, 0.2),
+        "hex_dark" => @keepColor ? hex : darken(hex, 0.8),
+        "hex_light" => @keepColor ? hex : lighten(hex, 0.2),
         "hexbgr" => to_hex_bgr(hex),
         "dhex" => to_dhex(hex),
         "rgb" => to_rgb(hex),
