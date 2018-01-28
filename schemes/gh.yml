@@ -4,16 +4,16 @@ author: "Jon Q (http://jonquach.com)"
 # plus: true
 keepColor: true
 cursor: "50E3C2"
-cursorText: "000000"
+# cursorText: "000000"
 
-base00: "282c34"
-base01: "2c323c"
-base02: "4f5b66"
-base03: "65737e"
+base00: "141820" # shade 1
+base01: "282c34" # shade 1
+base02: "2c323c" # shade 1
+base03: "4f5b66" # shade 1
 
-base04: "bebebe" # shade 2
-base05: "e1e1e1" # shade 2
-base06: "f2f2f2" # shade 2
+base04: "c4c4c4" # shade 2
+base05: "e5e5e5" # shade 2
+base06: "f6f6f6" # shade 2
 base07: "ffffff" # shade 2
 
 base08: "990000" # red
