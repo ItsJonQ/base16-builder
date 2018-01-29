@@ -18,10 +18,10 @@ base07: "ffffff" # shade 2
 
 base08: "e06c75" # red
 base09: "ffffff" # orange
-base0A: "f0c674" # yellow
-base0B: "98c379" # green
-base0C: "56b6c2" # cyan
-base0D: "61afef" # blue
+base0A: "c8dcff" # yellow
+base0B: "50c0c0" # green
+base0C: "c8dcff" # cyan
+base0D: "c8dcff" # blue
 base0E: "ffffff" # magenta
 base0F: "ffffff" # dark red
 
