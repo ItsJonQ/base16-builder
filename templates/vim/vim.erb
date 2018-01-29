@@ -41,6 +41,16 @@ let s:gui0D = "<%= @base["0D"]["hex"] %>"
 let s:gui0E = "<%= @base["0E"]["hex"] %>"
 let s:gui0F = "<%= @base["0F"]["hex"] %>"
 " Light
+<% if @base["08Light"] %>
+let s:gui08Dark = "<%= @base["08Light"]["hex_dark"] %>"
+let s:gui09Dark = "<%= @base["09Light"]["hex_dark"] %>"
+let s:gui0ADark = "<%= @base["0ALight"]["hex_dark"] %>"
+let s:gui0BDark = "<%= @base["0BLight"]["hex_dark"] %>"
+let s:gui0CDark = "<%= @base["0CLight"]["hex_dark"] %>"
+let s:gui0DDark = "<%= @base["0DLight"]["hex_dark"] %>"
+let s:gui0EDark = "<%= @base["0ELight"]["hex_dark"] %>"
+let s:gui0FDark = "<%= @base["0FLight"]["hex_dark"] %>"
+<% else %>
 let s:gui08Dark = "<%= @base["08"]["hex_dark"] %>"
 let s:gui09Dark = "<%= @base["09"]["hex_dark"] %>"
 let s:gui0ADark = "<%= @base["0A"]["hex_dark"] %>"
@@ -49,6 +59,7 @@ let s:gui0CDark = "<%= @base["0C"]["hex_dark"] %>"
 let s:gui0DDark = "<%= @base["0D"]["hex_dark"] %>"
 let s:gui0EDark = "<%= @base["0E"]["hex_dark"] %>"
 let s:gui0FDark = "<%= @base["0F"]["hex_dark"] %>"
+<% end %>
 
 <% if @statusline and @statusline_text and @statusline_nc_text %>
 let s:gui_statusline = "<%= @base["statusline"]["hex"] %>"

@@ -21,6 +21,15 @@ color06="<%= split_by_slash(@base["00"]["hex"]) %>" # Base 0C - Cyan
 color07="<%= split_by_slash(@base["00"]["hex"]) %>" # Base 05 - White
 <% else %>
 color00="<%= split_by_slash(@base["07"]["hex"]) %>" # Base 00 - Black
+<% if @base["08Light"] %>
+color01="<%= split_by_slash(@base["08Light"]["hex_dark"]) %>" # Base 08 - Red
+color02="<%= split_by_slash(@base["0BLight"]["hex_dark"]) %>" # Base 0B - Green
+color03="<%= split_by_slash(@base["0ALight"]["hex_dark"]) %>" # Base 0A - Yellow
+color04="<%= split_by_slash(@base["0DLight"]["hex_dark"]) %>" # Base 0D - Blue
+color05="<%= split_by_slash(@base["0ELight"]["hex_dark"]) %>" # Base 0E - Magenta
+color06="<%= split_by_slash(@base["0CLight"]["hex_dark"]) %>" # Base 0C - Cyan
+color07="<%= split_by_slash(@base["02"]["hex"]) %>" # Base 05 - White
+<% else %>
 color01="<%= split_by_slash(@base["08"]["hex_dark"]) %>" # Base 08 - Red
 color02="<%= split_by_slash(@base["0B"]["hex_dark"]) %>" # Base 0B - Green
 color03="<%= split_by_slash(@base["0A"]["hex_dark"]) %>" # Base 0A - Yellow
@@ -28,6 +37,7 @@ color04="<%= split_by_slash(@base["0D"]["hex_dark"]) %>" # Base 0D - Blue
 color05="<%= split_by_slash(@base["0E"]["hex_dark"]) %>" # Base 0E - Magenta
 color06="<%= split_by_slash(@base["0C"]["hex_dark"]) %>" # Base 0C - Cyan
 color07="<%= split_by_slash(@base["02"]["hex"]) %>" # Base 05 - White
+<% end %>
 <% end %>
 color08="<%= split_by_slash(@base["04"]["hex"]) %>" # Base 03 - Bright Black
 color09=$color01 # Base 08 - Bright Red
