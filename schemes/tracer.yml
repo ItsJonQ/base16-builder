@@ -6,16 +6,16 @@ base01: "181e28" # shade 1
 base02: "3b4752" # shade 1
 base03: "515f6a" # shade 1
 
-base04: "c4c4c5" # shade 2
+base04: "9399a6" # shade 2
 base05: "e5e5e6" # shade 2
 base06: "f0f0f1" # shade 2
 base07: "f9f9fb" # shade 2
 
 base08: "b3b3b6" # red
-base09: "f8f8fb" # orange
-base0A: "f8f8fb" # yellow
+base09: "f0f0f1" # orange
+base0A: "f0f0f1" # yellow
 base0B: "fd9727" # green
-base0C: "f8f8fb" # cyan
+base0C: "f0f0f1" # cyan
 base0D: "fd9727" # blue
 base0E: "fd9727" # magenta
-base0F: "f8f8fb" # dark red
+base0F: "f0f0f1" # dark red
