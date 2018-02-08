@@ -15,8 +15,9 @@ base07: "eff1f5"
 
 # colors
 base08: "c678dd" # red
-base09: "f0c674" # orange
-base0A: "f0c674" # yellow
+base09: "c678dd" # orange
+# base0A: "f0c674" # yellow
+base0A: "61afef" # yellow
 base0B: "98c379" # green
 base0C: "56b6c2" # cyan
 base0D: "61afef" # blue
