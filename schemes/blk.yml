@@ -1,0 +1,25 @@
+scheme: "BLK"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+plus: true
+cursor: "50E3C2"
+cursorText: "000000"
+
+base00: "000000" # shade 1
+base01: "101010" # shade 1
+base02: "3c3c3c" # shade 1
+base03: "5c5c5c" # shade 1
+
+base04: "aaaaaa" # shade 2
+base05: "cccccc" # shade 2
+base06: "dedede" # shade 2
+base07: "eeeeee" # shade 2
+
+base08: "eeeeee" # red
+base09: "eeeeee" # orange
+base0A: "eeeeee" # yellow
+base0B: "eeeeee" # green
+base0C: "eeeeee" # cyan
+base0D: "eeeeee" # blue
+base0E: "eeeeee" # magenta
+base0F: "eeeeee" # dark red
