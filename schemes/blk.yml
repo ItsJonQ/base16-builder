@@ -12,14 +12,14 @@ base03: "5c5c5c" # shade 1
 
 base04: "aaaaaa" # shade 2
 base05: "cccccc" # shade 2
-base06: "dedede" # shade 2
-base07: "eeeeee" # shade 2
+base06: "eeeeee" # shade 2
+base07: "f2f2f2" # shade 2
 
-base08: "eeeeee" # red
-base09: "eeeeee" # orange
-base0A: "eeeeee" # yellow
-base0B: "eeeeee" # green
-base0C: "eeeeee" # cyan
-base0D: "eeeeee" # blue
-base0E: "eeeeee" # magenta
-base0F: "eeeeee" # dark red
+base08: "f2f2f2" # red
+base09: "f2f2f2" # orange
+base0A: "f2f2f2" # yellow
+base0B: "f2f2f2" # green
+base0C: "f2f2f2" # cyan
+base0D: "f2f2f2" # blue
+base0E: "f2f2f2" # magenta
+base0F: "f2f2f2" # dark red
