@@ -1,0 +1,25 @@
+scheme: "Fifty"
+author: "Jon Q (http://jonquach.com)"
+
+# dark
+base00: "282c34"
+base01: "2c323c"
+base02: "4f5b66"
+base03: "65737e"
+
+# light
+base04: "a7adba"
+base05: "c0c5ce"
+base06: "dfe1e8"
+base07: "eff1f5"
+
+# colors
+base08: "c678dd" # red
+base09: "c678dd" # orange
+# base0A: "f0c674" # yellow
+base0A: "61afef" # yellow
+base0B: "98c379" # green
+base0C: "56b6c2" # cyan
+base0D: "61afef" # blue
+base0E: "c678dd" # magenta
+base0F: "c678dd" # dark red
