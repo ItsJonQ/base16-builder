@@ -14,13 +14,11 @@ base06: "eaecf0"
 base07: "eff1f5"
 
 # colors
-# base08: "bf616a" # red (actually magenta)
-base08: "b48ead" # red
+base08: "bf616a" # red
 base09: "d08770" # orange
 base0A: "ebcb8b" # yellow
 base0B: "a3be8c" # green
 base0C: "96b5b4" # cyan
 base0D: "8fa1b3" # blue
 base0E: "b48ead" # magenta
-# base0F: "ab7967" # dark red
-base0F: "b48ead" # dark red (actually magenta)
+base0F: "ab7967" # dark red
