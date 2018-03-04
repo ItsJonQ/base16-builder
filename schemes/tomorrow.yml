@@ -11,11 +11,21 @@ base05: "c5c8c6"
 base06: "e0e0e0"
 base07: "ffffff"
 
-base08: "cc6666"
-base09: "de935f"
-base0A: "f0c674"
-base0B: "b5bd68"
-base0C: "8abeb7"
-base0D: "81a2be"
-base0E: "b294bb"
-base0F: "a3685a"
+# base08: "cc6666"
+# base09: "de935f"
+# base0A: "f0c674"
+# base0B: "b5bd68"
+# base0C: "8abeb7"
+# base0D: "81a2be"
+# base0E: "b294bb"
+# base0F: "a3685a"
+
+# colors
+base08: "bf616a" # red
+base09: "d08770" # orange
+base0A: "ebcb8b" # yellow
+base0B: "a3be8c" # green
+base0C: "96b5b4" # cyan
+base0D: "8fa1b3" # blue
+base0E: "b48ead" # magenta
+base0F: "ab7967" # dark red
