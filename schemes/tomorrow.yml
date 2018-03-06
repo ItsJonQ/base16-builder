@@ -1,5 +1,5 @@
 scheme: "Tomorrow"
-author: "Chris Kempson (http://chriskempson.com)"
+author: "Jon Q (http://jonquach.com)"
 
 # dark
 base00: "1d1f21"
@@ -30,4 +30,5 @@ base0B: "a3be8c" # green
 base0C: "96b5b4" # cyan
 base0D: "8fa1b3" # blue
 base0E: "b48ead" # magenta
-base0F: "ab7967" # dark red
+base0F: "bf616a" # dark red
+# base0F: "ab7967" # dark red
