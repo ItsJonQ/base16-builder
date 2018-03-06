@@ -2,18 +2,21 @@ scheme: "Purple"
 author: "Jon Q (http://jonquach.com)"
 
 base00: "2f1e2e"
-base01: "41323f"
-base02: "4f424c"
-base03: "776e71"
+base01: "352331"
+base02: "4d3c4c"
+base03: "615060"
+
 base04: "8d8687"
 base05: "a39e9b"
 base06: "b9b6b0"
 base07: "e7e9db"
-base08: "e06c75"
-base09: "d08770"
-base0A: "f0c674"
-base0B: "98c379"
-base0C: "56b6c2"
-base0D: "61afef"
-base0E: "c678dd"
-base0F: "be5046"
+
+# colors
+base08: "bf616a" # red
+base09: "d08770" # orange
+base0A: "ebcb8b" # yellow
+base0B: "a3be8c" # green
+base0C: "96b5b4" # cyan
+base0D: "8fa1b3" # blue
+base0E: "b48ead" # magenta
+base0F: "ab7967" # dark red
