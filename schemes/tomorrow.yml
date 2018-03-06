@@ -1,15 +1,17 @@
 scheme: "Tomorrow"
 author: "Chris Kempson (http://chriskempson.com)"
 
+# dark
 base00: "1d1f21"
 base01: "222426"
-base02: "373b41"
-base03: "65737e"
+base02: "313335"
+base03: "454749"
 
-base04: "a7adba"
-base05: "c5c8c6"
-base06: "fafafa"
-base07: "ffffff"
+# light
+base04: "c7c9cd"
+base05: "dbdde1"
+base06: "ebecf0"
+base07: "eff1f5"
 
 # base08: "cc6666"
 # base09: "de935f"
