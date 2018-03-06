@@ -1,5 +1,7 @@
 scheme: "Cupcake"
 author: "Jon Q (http://jonquach.com)"
+magic: true
+baseColor: "4e4658"
 
 # dark
 base00: "4e4658"

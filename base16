@@ -114,6 +114,7 @@ class Theme
     @cursorText = false
     @monochrome = false
     @keepColor = false
+    @magic = false
     @statusline = scheme_data["statusline"]
     @statusline_text = scheme_data["statusline_text"]
     @statusline_nc_text = scheme_data["statusline_nc_text"]
@@ -129,9 +130,15 @@ class Theme
     if scheme_data.key?("cursor")
       @cursor = scheme_data["cursor"]
     end
+
     if scheme_data.key?("cursorText")
       @cursorText = scheme_data["cursorText"]
     end
+
+    if scheme_data.key?("magic")
+      @magic = true
+    end
+
 
     # Define ERB color vars
     @base = {}
@@ -161,7 +168,8 @@ class Theme
       "0ELight",
       "0FLight",
     ].each do |key|
-      hex = scheme_data["base" + key];
+      hex = scheme_data["base" + key]
+
       if (hex)
         @base[key] = {
           "hex" => colorCorrect(hex),
