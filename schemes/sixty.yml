@@ -1,0 +1,24 @@
+scheme: "Sixty"
+author: "Jon Q (https://jonquach.com)"
+
+# dark
+base00: "282C34"
+base01: "2B2F38"
+base02: "323741"
+base03: "383E49"
+
+# light
+base04: "C2CAD9"
+base05: "D9DDE7"
+base06: "E8EAF0"
+base07: "EFF1F5"
+
+# colors
+base08: "C678DD"
+base09: "C678DD"
+base0A: "61AFEF"
+base0B: "98C379"
+base0C: "56B6C2"
+base0D: "61AFEF"
+base0E: "C678DD"
+base0F: "C678DD"
