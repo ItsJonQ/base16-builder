@@ -1,0 +1,27 @@
+{
+  "name": "base16-builder",
+  "version": "0.0.1",
+  "description": "Q's custom Base16 Builder!",
+  "main": "index.js",
+  "scripts": {
+    "create": "node ./create.js",
+    "make": "sh ./make.sh",
+    "start": "npm run create && npm run make",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsJonQ/base16-builder.git"
+  },
+  "author": "Jon Quach <itsjonq@gmail.com> (https://jonquach.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ItsJonQ/base16-builder/issues"
+  },
+  "homepage": "https://github.com/ItsJonQ/base16-builder#readme",
+  "devDependencies": {
+    "color": "3.0.0",
+    "glob": "7.1.2",
+    "redent": "2.0.0"
+  }
+}

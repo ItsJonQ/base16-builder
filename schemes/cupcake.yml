@@ -1,39 +1,24 @@
 scheme: "Cupcake"
-author: "Jon Q (http://jonquach.com)"
-magic: true
-baseColor: "4e4658"
+author: "Jon Q (https://jonquach.com)"
 
 # dark
-base00: "4e4658"
-base01: "534b5c"
-base02: "6c6476"
-base03: "80788a"
+base00: "4E4658"
+base01: "544B5F"
+base02: "62586E"
+base03: "6D627B"
 
 # light
-base04: "c9bfc0"
-base05: "ddd3d4"
-base06: "f6eced"
-base07: "fbf1f2"
+base04: "D7C6CB"
+base05: "E6DCDE"
+base06: "F0EAEB"
+base07: "F5F1F2"
 
 # colors
-# base08: "D57E85"
-# base09: "EBB790"
-# base0A: "DCB16C"
-# base0B: "A3B367"
-# base0C: "69A9A7"
-# base0D: "7297B9"
-# base0E: "BB99B4"
-# base0F: "BAA58C"
-
-# # colors
-# base08: "bf616a" # red
-base08: "D57E85" # red
-base09: "d08770" # orange
-base0A: "ebcb8b" # yellow
-base0B: "a3be8c" # green
-base0C: "96b5b4" # cyan
-base0D: "8fa1b3" # blue
-base0E: "b48ead" # magenta
-base0F: "D57E85" # dark red
-# # base0F: "ab7967" # dark red
-
+base08: "DF888F"
+base09: "EBB790"
+base0A: "EBCB8B"
+base0B: "A3BE8C"
+base0C: "69A9A7"
+base0D: "7297B9"
+base0E: "BB99B4"
+base0F: "DF888F"
