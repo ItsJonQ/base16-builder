@@ -1,0 +1,24 @@
+scheme: "Rust"
+author: "Jon Q (https://jonquach.com)"
+
+# dark
+base00: "4D4843"
+base01: "534D48"
+base02: "777068"
+base03: "8E857D"
+
+# light
+base04: "D7C6CB"
+base05: "E6DCDE"
+base06: "F0EAEB"
+base07: "F5F1F2"
+
+# colors
+base08: "DF888F"
+base09: "EBB790"
+base0A: "EBCB8B"
+base0B: "A3BE8C"
+base0C: "96B5B4"
+base0D: "8FA1B3"
+base0E: "BB99B4"
+base0F: "DF888F"

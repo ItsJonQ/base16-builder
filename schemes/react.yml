@@ -1,4 +1,4 @@
-scheme: "Sixty"
+scheme: "React"
 author: "Jon Q (https://jonquach.com)"
 
 # dark
@@ -14,11 +14,11 @@ base06: "E8EAF0"
 base07: "EFF1F5"
 
 # colors
-base08: "C678DD"
-base09: "C678DD"
-base0A: "61AFEF"
+base08: "FC929E"
+base09: "C5A5C5"
+base0A: "FAC863"
 base0B: "8DC891"
-base0C: "56B6C2"
-base0D: "61AFEF"
-base0E: "C678DD"
-base0F: "C678DD"
+base0C: "5FB3B3"
+base0D: "79B6F2"
+base0E: "C5A5C5"
+base0F: "FC929E"
