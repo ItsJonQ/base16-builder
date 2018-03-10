@@ -1,23 +1,24 @@
 scheme: "Tron"
-author: "Jon Q (http://jonquach.com)"
-monochrome: true
-plus: true
+author: "Jon Q (https://jonquach.com)"
 
-base00: "000000" # shade 1
-base01: "1c1c1c" # shade 1
-base02: "3c3c3c" # shade 1
-base03: "5c5c5c" # shade 1
+# dark
+base00: "141820"
+base01: "161A23"
+base02: "202633"
+base03: "252C3B"
 
-base04: "28b4ff" # shade 2
-base05: "28b4ff" # shade 2
-base06: "28b4ff" # shade 2
-base07: "28b4ff" # shade 2
+# light
+base04: "D4D4D4"
+base05: "E7E7E7"
+base06: "F4F4F4"
+base07: "FAFAFA"
 
-base08: "28b4ff" # red
-base09: "28b4ff" # orange
-base0A: "28b4ff" # yellow
-base0B: "28b4ff" # green
-base0C: "28b4ff" # cyan
-base0D: "28b4ff" # blue
-base0E: "28b4ff" # magenta
-base0F: "28b4ff" # dark red
+# colors
+base08: "F09727"
+base09: "F09727"
+base0A: "F09727"
+base0B: "61AFEF"
+base0C: "61AFEF"
+base0D: "61AFEF"
+base0E: "61AFEF"
+base0F: "F09727"

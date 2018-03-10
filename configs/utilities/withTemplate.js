@@ -53,8 +53,8 @@ const makeBase16Palette = props => {
     baseColorsToBase16(normalizeBaseColors(defaultBaseColors)),
     {
       base00: hexColor(baseDarkColor),
-      base01: hexColor(baseDarkColor.lighten(0.075)),
-      base02: hexColor(baseDarkColor.lighten(0.55)),
+      base01: hexColor(baseDarkColor.lighten(0.085)),
+      base02: hexColor(baseDarkColor.lighten(0.60)),
       base03: hexColor(baseDarkColor.lighten(0.85)),
 
       base04: hexColor(baseLightColor.darken(0.15)),
