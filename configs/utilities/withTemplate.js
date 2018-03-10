@@ -39,11 +39,36 @@ const baseColorsToBase16 = baseColors => {
   }
 }
 
+const baseLightColorsToBase16 = baseColors => {
+  const {
+    red,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    magenta,
+    darkRed
+  } = baseColors
+
+  return {
+    base08Light: hexColor(red),
+    base09Light: hexColor(orange),
+    base0ALight: hexColor(yellow),
+    base0BLight: hexColor(green),
+    base0CLight: hexColor(cyan),
+    base0DLight: hexColor(blue),
+    base0ELight: hexColor(magenta),
+    base0FLight: hexColor(darkRed),
+  }
+}
+
 const makeBase16Palette = props => {
   const {
     baseLight,
     baseDark,
     baseColors,
+    baseLightColors,
   } = props
 
   const baseDarkColor = withColor(baseDark)
@@ -63,6 +88,10 @@ const makeBase16Palette = props => {
       base07: hexColor(baseLightColor),
     },
     baseColorsToBase16(normalizeBaseColors(baseColors)),
+    (baseLightColors ?
+      baseLightColorsToBase16(normalizeBaseColors(baseLightColors)) :
+      {}
+    ),
   )
 
   return palette
@@ -71,6 +100,18 @@ const makeBase16Palette = props => {
 const withTemplate = props => {
   const {name} = props
   const palette = makeBase16Palette(props)
+
+  const outputLight = palette.base08Light ? `
+    # colors (light)
+    base08Light: "${palette.base08Light}"
+    base09Light: "${palette.base09Light}"
+    base0ALight: "${palette.base0ALight}"
+    base0BLight: "${palette.base0BLight}"
+    base0CLight: "${palette.base0CLight}"
+    base0DLight: "${palette.base0DLight}"
+    base0ELight: "${palette.base0ELight}"
+    base0FLight: "${palette.base0FLight}"
+  ` : ''
 
   const output = redent(`
     scheme: "${name}"
@@ -97,6 +138,7 @@ const withTemplate = props => {
     base0D: "${palette.base0D}"
     base0E: "${palette.base0E}"
     base0F: "${palette.base0F}"
+    ${outputLight}
   `).trim()
 
   return output

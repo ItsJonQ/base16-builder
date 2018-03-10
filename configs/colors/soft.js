@@ -1,10 +1,10 @@
 module.exports = {
-  red: 'e06c75',
-  orange: 'EBB790',
-  yellow: 'f0c674',
+  red: 'c96b7e',
+  orange: 'd08770',
+  yellow: 'ebcb8b',
   green: '8dc891',
-  cyan: '56b6c2',
-  blue: '61afef',
-  magenta: 'c68cdd',
-  darkRed: 'e06c75',
+  cyan: '96b5b4',
+  blue: '8fa1b3',
+  magenta: 'b48ead',
+  darkRed: 'c96b7e',
 }
