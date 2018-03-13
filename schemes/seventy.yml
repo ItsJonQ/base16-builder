@@ -22,3 +22,13 @@ base0C: "96B5B4"
 base0D: "8FA1B3"
 base0E: "B48EAD"
 base0F: "C96B7E"
+
+# colors (light)
+base08Light: "C96B7E"
+base09Light: "CA775D"
+base0ALight: "E7C071"
+base0BLight: "8DC891"
+base0CLight: "96B5B4"
+base0DLight: "8FA1B3"
+base0ELight: "B48EAD"
+base0FLight: "C96B7E"

@@ -145,3 +145,4 @@ const withTemplate = props => {
 }
 
 module.exports = withTemplate
+module.exports.hexColor = hexColor
