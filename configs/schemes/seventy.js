@@ -5,7 +5,7 @@ const hexColor = require('../utilities/withTemplate').hexColor
 const darken = (color, value = 0.08) => hexColor(withColor(color).darken(value))
 const baseDark = '282c34'
 const baseLight = 'eff1f5'
-const orange = baseColors.yellow
+const yellow = baseColors.cyan
 
 module.exports = {
   name: 'Seventy',
@@ -13,10 +13,11 @@ module.exports = {
   baseDark,
   baseLight,
 
-  baseColors,
+  baseColors: Object.assign({}, baseColors, {
+    yellow
+  }),
 
   baseLightColors: Object.assign({}, baseColors, {
-    orange: darken(baseColors.orange),
-    yellow: darken(baseColors.orange),
+    yellow: darken(yellow),
   })
 }
