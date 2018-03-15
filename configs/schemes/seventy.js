@@ -15,11 +15,11 @@ module.exports = {
 
   baseColors: Object.assign({}, baseColors, {
     orange,
-    yellow: darken(baseLight, 0.095)
+    yellow: orange
   }),
 
   baseLightColors: Object.assign({}, baseColors, {
     orange: darken(orange),
-    yellow: baseDark,
+    yellow: darken(orange),
   })
 }
