@@ -1,8 +1,6 @@
 const baseColors = require('../colors/soft')
-const withColor = require('../utilities/withColor')
-const hexColor = require('../utilities/withTemplate').hexColor
+const darken = require('../utilities/color').darken
 
-const darken = (color, value = 0.08) => hexColor(withColor(color).darken(value))
 const baseDark = '282c34'
 const baseLight = 'eff1f5'
 const yellow = baseColors.cyan
