@@ -1,8 +1,7 @@
 const redent = require('redent')
 const defaultBaseColors = require('../colors/ocean')
 const withColor = require('./withColor')
-
-const hexColor = color => color.hex().replace('#', '')
+const hexColor = require('./color').hexColor
 
 const normalizeBaseColors = (baseColors = defaultBaseColors) => ({
   red: withColor(baseColors.red),
@@ -15,7 +14,22 @@ const normalizeBaseColors = (baseColors = defaultBaseColors) => ({
   darkRed: withColor(baseColors.darkRed),
 })
 
+const normalizeBasePaletteColors = (baseColors) => {
+  if (!baseColors) return {}
+  return {
+    base00: withColor(baseColors.base00),
+    base01: withColor(baseColors.base01),
+    base02: withColor(baseColors.base02),
+    base03: withColor(baseColors.base03),
+    base04: withColor(baseColors.base04),
+    base05: withColor(baseColors.base05),
+    base06: withColor(baseColors.base06),
+    base07: withColor(baseColors.base07),
+  }
+}
+
 const baseColorsToBase16 = baseColors => {
+  if (!baseColors) return {}
   const {
     red,
     orange,
@@ -40,6 +54,7 @@ const baseColorsToBase16 = baseColors => {
 }
 
 const baseLightColorsToBase16 = baseColors => {
+  if (!baseColors) return {}
   const {
     red,
     orange,
@@ -63,12 +78,38 @@ const baseLightColorsToBase16 = baseColors => {
   }
 }
 
+const basePaletteColorsToBase16 = baseColors => {
+  if (!baseColors || !baseColors.base00) return {}
+  const {
+    base00,
+    base01,
+    base02,
+    base03,
+    base04,
+    base05,
+    base06,
+    base07
+  } = baseColors
+
+  return {
+    base00: hexColor(base00),
+    base01: hexColor(base01),
+    base02: hexColor(base02),
+    base03: hexColor(base03),
+    base04: hexColor(base04),
+    base05: hexColor(base05),
+    base06: hexColor(base06),
+    base07: hexColor(base07),
+  }
+}
+
 const makeBase16Palette = props => {
   const {
     baseLight,
     baseDark,
     baseColors,
     baseLightColors,
+    basePaletteColors,
   } = props
 
   const baseDarkColor = withColor(baseDark)
@@ -88,8 +129,12 @@ const makeBase16Palette = props => {
       base07: hexColor(baseLightColor),
     },
     baseColorsToBase16(normalizeBaseColors(baseColors)),
-    (baseLightColors ?
+    (baseLightColors ? 
       baseLightColorsToBase16(normalizeBaseColors(baseLightColors)) :
+      {}
+    ),
+    (basePaletteColors ? 
+      basePaletteColorsToBase16(normalizeBasePaletteColors(basePaletteColors)) :
       {}
     ),
   )
@@ -98,8 +143,12 @@ const makeBase16Palette = props => {
 }
 
 const withTemplate = props => {
-  const {name} = props
+  const {monochrome, name} = props
   const palette = makeBase16Palette(props)
+
+  const outputMonochrome = monochrome ? `
+    monochrome: true
+  ` : ''
 
   const outputLight = palette.base08Light ? `
     # colors (light)
@@ -116,6 +165,7 @@ const withTemplate = props => {
   const output = redent(`
     scheme: "${name}"
     author: "Jon Q (https://jonquach.com)"
+    ${outputMonochrome}
 
     # dark
     base00: "${palette.base00}"

@@ -1,0 +1,27 @@
+scheme: "Gameboy"
+author: "Jon Q (https://jonquach.com)"
+
+monochrome: true
+  
+
+# dark
+base00: "494F30"
+base01: "4F5634"
+base02: "757E4D"
+base03: "A0AA74"
+
+# light
+base04: "ADC107"
+base05: "C9E108"
+base06: "DEF714"
+base07: "E7F954"
+
+# colors
+base08: "E7F954"
+base09: "E7F954"
+base0A: "E7F954"
+base0B: "E7F954"
+base0C: "E7F954"
+base0D: "E7F954"
+base0E: "E7F954"
+base0F: "E7F954"
