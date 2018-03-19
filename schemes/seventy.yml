@@ -16,7 +16,7 @@ base07: "EFF1F5"
 
 # colors
 base08: "C96B7E"
-base09: "D08770"
+base09: "96B5B4"
 base0A: "96B5B4"
 base0B: "8DC891"
 base0C: "96B5B4"
@@ -26,7 +26,7 @@ base0F: "C96B7E"
 
 # colors (light)
 base08Light: "C96B7E"
-base09Light: "D08770"
+base09Light: "86AAA9"
 base0ALight: "86AAA9"
 base0BLight: "7BBF7F"
 base0CLight: "96B5B4"
