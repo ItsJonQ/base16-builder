@@ -40,6 +40,6 @@ module.exports = {
 
   baseLightColors: Object.assign({}, baseColors, {
     yellow: baseLightText,
-    blue: '0000ff',
+    blue: '143ccd',
   })
 }
