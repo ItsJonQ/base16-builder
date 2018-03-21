@@ -1,21 +1,35 @@
 scheme: "Lucio"
-author: "Jon Q (http://jonquach.com)"
+author: "Jon Q (https://jonquach.com)"
 
-base00: "141820" # shade 1
-base01: "181e28" # shade 1
-base02: "3b4752" # shade 1
-base03: "515f6a" # shade 1
 
-base04: "9399a6" # shade 2
-base05: "e5e5e6" # shade 2
-base06: "f0f0f1" # shade 2
-base07: "f9f9fb" # shade 2
+# dark
+base00: "141820"
+base01: "161A23"
+base02: "202633"
+base03: "2D3648"
 
-base08: "b3b3b6" # red
-base09: "f0f0f1" # orange
-base0A: "f0f0f1" # yellow
-base0B: "a6e22e" # green
-base0C: "f0f0f1" # cyan
-base0D: "a6e22e" # blue
-base0E: "a6e22e" # magenta
-base0F: "f0f0f1" # dark red
+# light
+base04: "BDBDD3"
+base05: "E3E3EC"
+base06: "F0F0F5"
+base07: "F9F9FB"
+
+# colors
+base08: "9090B5"
+base09: "C9C9DB"
+base0A: "C9C9DB"
+base0B: "A6E22E"
+base0C: "C9C9DB"
+base0D: "A6E22E"
+base0E: "A6E22E"
+base0F: "9090B5"
+
+# colors (light)
+base08Light: "1C222D"
+base09Light: "171C25"
+base0ALight: "171C25"
+base0BLight: "A6E22E"
+base0CLight: "171C25"
+base0DLight: "A6E22E"
+base0ELight: "A6E22E"
+base0FLight: "1C222D"

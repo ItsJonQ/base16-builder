@@ -1,0 +1,35 @@
+scheme: "Term"
+author: "Jon Q (https://jonquach.com)"
+
+
+# dark
+base00: "000000"
+base01: "0C0C0C"
+base02: "2C2C2C"
+base03: "4C4C4C"
+
+# light
+base04: "BBBBBB"
+base05: "ECECEC"
+base06: "F5F5F5"
+base07: "FFFFFF"
+
+# colors
+base08: "C41A15"
+base09: "E400E1"
+base0A: "318495"
+base0B: "00CA35"
+base0C: "318495"
+base0D: "328CFF"
+base0E: "E400E1"
+base0F: "C41A15"
+
+# colors (light)
+base08Light: "C41A15"
+base09Light: "E400E1"
+base0ALight: "318495"
+base0BLight: "00CA35"
+base0CLight: "318495"
+base0DLight: "0000FF"
+base0ELight: "E400E1"
+base0FLight: "C41A15"

@@ -1,7 +1,7 @@
 const makeColor = require('../colors/overwatch')
 
-const mainColor = '289aff'
+const mainColor = 'a6e22e'
 
 module.exports = Object.assign(makeColor(mainColor), {
-  name: 'Ana',
+  name: 'Lucio',
 })
