@@ -143,12 +143,25 @@ const makeBase16Palette = props => {
 }
 
 const withTemplate = props => {
-  const {monochrome, name} = props
+  const {
+    cursor,
+    cursorText,
+    monochrome,
+    name
+  } = props
   const palette = makeBase16Palette(props)
 
   const outputMonochrome = monochrome ? `
     monochrome: true
   ` : ''
+
+  const outputCursor = cursor ? `
+    cursor: ${cursor}
+  ` : ''
+  const outputCursorText = cursorText ? `
+    cursorText: ${cursorText}
+  ` : ''
+
 
   const outputLight = palette.base08Light ? `
     # colors (light)
@@ -166,6 +179,8 @@ const withTemplate = props => {
     scheme: "${name}"
     author: "Jon Q (https://jonquach.com)"
     ${outputMonochrome}
+    ${outputCursor}
+    ${outputCursorText}
 
     # dark
     base00: "${palette.base00}"

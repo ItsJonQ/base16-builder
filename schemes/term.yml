@@ -2,6 +2,10 @@ scheme: "Term"
 author: "Jon Q (https://jonquach.com)"
 
 
+cursor: 50E3C2
+  
+
+
 # dark
 base00: "000000"
 base01: "0C0C0C"

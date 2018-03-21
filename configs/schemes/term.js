@@ -21,6 +21,8 @@ const baseColors = {
 module.exports = {
   name: 'Term',
 
+  cursor: '50E3C2',
+
   baseDark: '000000',
   baseLight: 'ffffff',
 
