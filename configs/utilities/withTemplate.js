@@ -156,10 +156,10 @@ const withTemplate = props => {
   ` : ''
 
   const outputCursor = cursor ? `
-    cursor: ${cursor}
+    cursor: "${cursor}"
   ` : ''
   const outputCursorText = cursorText ? `
-    cursorText: ${cursorText}
+    cursorText: "${cursorText}"
   ` : ''
 
 
