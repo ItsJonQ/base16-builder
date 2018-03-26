@@ -1,0 +1,41 @@
+scheme: "Paper"
+author: "Jon Q (https://jonquach.com)"
+
+
+cursor: "50E3C2"
+  
+
+cursorText: "000000"
+  
+
+# dark
+base00: "000000"
+base01: "0C0C0C"
+base02: "2C2C2C"
+base03: "4C4C4C"
+
+# light
+base04: "BBBBBB"
+base05: "DCDCDC"
+base06: "E5E5E5"
+base07: "EEEEEE"
+
+# colors
+base08: "D03D69"
+base09: "E400E1"
+base0A: "318495"
+base0B: "459730"
+base0C: "318495"
+base0D: "328CFF"
+base0E: "E400E1"
+base0F: "D03D69"
+
+# colors (light)
+base08Light: "D03D69"
+base09Light: "8D4CCB"
+base0ALight: "318495"
+base0BLight: "459730"
+base0CLight: "318495"
+base0DLight: "143CCD"
+base0ELight: "8D4CCB"
+base0FLight: "D03D69"
