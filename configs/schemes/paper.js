@@ -4,7 +4,8 @@ const magenta = '8d4ccb'
 const orange = 'eb8500'
 // const cyan = '318495'
 const cyan = 'c8dcff'
-const cyanLight = '606aa1'
+// const cyanLight = '606aa1'
+const cyanLight = '2459c5'
 const green = '459730'
 
 const baseColors = {
