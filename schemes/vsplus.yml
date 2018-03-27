@@ -1,21 +1,41 @@
 scheme: "VSPlus"
-author: "Jon Q (http://jonquach.com)"
+author: "Jon Q (https://jonquach.com)"
 
-base00: "1e1e1e"
+
+cursor: "50E3C2"
+  
+
+cursorText: "000000"
+  
+
+# dark
+base00: "1E1E1E"
 base01: "252526"
 base02: "333333"
 base03: "555555"
 
-base04: "bbbbbb"
-base05: "dddddd"
-base06: "f3f3f3"
-base07: "ffffff"
+# light
+base04: "BBBBBB"
+base05: "DCDCDC"
+base06: "F3F3F3"
+base07: "FFFFFF"
 
-base08: "c88cbe" # red
-base09: "ce9178" # orange
-base0A: "dcdcaa" # yellow
-base0B: "4ec9b0" # green
-base0C: "569cd6" # cyan
-base0D: "569cd6" # blue
-base0E: "569cd6" # magenta
-base0F: "569cd6" # dark red
+# colors
+base08: "C88CBE"
+base09: "CE9178"
+base0A: "DCDCAA"
+base0B: "4EC9B0"
+base0C: "9CDCFE"
+base0D: "569CD6"
+base0E: "C88CBE"
+base0F: "C88CBE"
+
+# colors (light)
+base08Light: "B42F24"
+base09Light: "8D4CCB"
+base0ALight: "2459C5"
+base0BLight: "459730"
+base0CLight: "2459C5"
+base0DLight: "143CCD"
+base0ELight: "8D4CCB"
+base0FLight: "B42F24"
