@@ -1,4 +1,5 @@
-const red = 'd03d69'
+const red = 'e41f4b'
+const fireRed = 'b42f24'
 const pink = 'e400e1'
 const magenta = '8d4ccb'
 const orange = 'eb8500'
@@ -6,13 +7,14 @@ const orange = 'eb8500'
 const cyan = 'c8dcff'
 // const cyanLight = '606aa1'
 const cyanLight = '2459c5'
+const neonGreen = '00ca35'
 const green = '459730'
 
 const baseColors = {
   red,
   orange: pink,
   yellow: cyan,
-  green,
+  green: neonGreen,
   cyan,
   blue: '328cff',
   magenta: pink,
@@ -43,10 +45,13 @@ module.exports = {
   baseColors,
 
   baseLightColors: Object.assign({}, baseColors, {
+    red: fireRed,
     orange: magenta,
     yellow: cyanLight,
+    green,
     cyan: cyanLight,
     blue: '143ccd',
     magenta,
+    darkRed: fireRed,
   })
 }
