@@ -1,0 +1,37 @@
+scheme: "Burnside"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+# dark
+base00: "2B200A"
+base01: "2F230B"
+base02: "453310"
+base03: "614816"
+
+# light
+base04: "D9CAB3"
+base05: "EEE7DC"
+base06: "F5F1EB"
+base07: "FAF8F5"
+
+# colors
+base08: "D03D69"
+base09: "E400E1"
+base0A: "C8DCFF"
+base0B: "459730"
+base0C: "C8DCFF"
+base0D: "328CFF"
+base0E: "E400E1"
+base0F: "D03D69"
+
+# colors (light)
+base08Light: "D03D69"
+base09Light: "8D4CCB"
+base0ALight: "606AA1"
+base0BLight: "459730"
+base0CLight: "606AA1"
+base0DLight: "143CCD"
+base0ELight: "8D4CCB"
+base0FLight: "D03D69"
