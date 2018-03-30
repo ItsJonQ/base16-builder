@@ -1,25 +1,6 @@
-const red = 'e41f4b'
-const fireRed = 'b42f24'
-const pink = 'e400e1'
-const magenta = '8d4ccb'
-const orange = 'eb8500'
-// const cyan = '318495'
-const cyan = 'c8dcff'
-// const cyanLight = '606aa1'
-const cyanLight = '2459c5'
-const neonGreen = '00ca35'
-const green = '459730'
-
-const baseColors = {
-  red,
-  orange: pink,
-  yellow: cyan,
-  green: neonGreen,
-  cyan,
-  blue: '328cff',
-  magenta: pink,
-  darkRed: red
-}
+const termColors = require('../colors/term')
+const baseColors = termColors.baseColors
+const baseLightColors = termColors.baseLightColors
 
 module.exports = {
   name: 'Paper',
@@ -39,19 +20,9 @@ module.exports = {
     base04: 'bbbbbb',
     base05: 'dcdcdc',
     base06: 'e5e5e5',
-    base07: 'eeeeee',
+    base07: 'eeeeee'
   },
 
   baseColors,
-
-  baseLightColors: Object.assign({}, baseColors, {
-    red: fireRed,
-    orange: magenta,
-    yellow: cyanLight,
-    green,
-    cyan: cyanLight,
-    blue: '143ccd',
-    magenta,
-    darkRed: fireRed,
-  })
+  baseLightColors
 }

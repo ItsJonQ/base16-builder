@@ -21,14 +21,14 @@ base06: "E5E5E5"
 base07: "EEEEEE"
 
 # colors
-base08: "E41F4B"
-base09: "E400E1"
+base08: "EE475F"
+base09: "F828EB"
 base0A: "C8DCFF"
 base0B: "00CA35"
 base0C: "C8DCFF"
-base0D: "328CFF"
-base0E: "E400E1"
-base0F: "E41F4B"
+base0D: "3CA0FF"
+base0E: "F828EB"
+base0F: "EE475F"
 
 # colors (light)
 base08Light: "B42F24"

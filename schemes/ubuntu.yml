@@ -1,18 +1,37 @@
 scheme: "Ubuntu"
-author: "Jon Q (http://jonquach.com)"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+# dark
 base00: "411934"
-base01: "4b233e"
-base02: "552d48"
+base01: "4B233E"
+base02: "552D48"
 base03: "9E7D96"
+
+# light
 base04: "BB94A9"
 base05: "EEE9ED"
-base06: "fbf3f7"
-base07: "fbf3f7"
-base08: "fbf3f7" # red
-base09: "fbf3f7" # orange
-base0A: "fbf3f7" # yellow
-base0B: "fbf3f7" # green
-base0C: "fbf3f7" # cyan
-base0D: "fbf3f7" # blue
-base0E: "fbf3f7" # magenta
-base0F: "fbf3f7" # dark red
+base06: "FBF3F7"
+base07: "FBF3F7"
+
+# colors
+base08: "EE475F"
+base09: "F828EB"
+base0A: "C8DCFF"
+base0B: "00CA35"
+base0C: "C8DCFF"
+base0D: "3CA0FF"
+base0E: "F828EB"
+base0F: "EE475F"
+
+# colors (light)
+base08Light: "B42F24"
+base09Light: "8D4CCB"
+base0ALight: "2459C5"
+base0BLight: "459730"
+base0CLight: "2459C5"
+base0DLight: "143CCD"
+base0ELight: "8D4CCB"
+base0FLight: "B42F24"
