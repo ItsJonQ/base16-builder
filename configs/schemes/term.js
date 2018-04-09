@@ -2,6 +2,7 @@ const red = 'c41a15'
 const magenta = 'e400e1'
 const orange = 'eb8500'
 const cyan = '318495'
+const cyanLight = '606aa1'
 
 // const baseText = 'f3f3f3'
 // const baseLightText = '0c0c0c'
@@ -43,6 +44,7 @@ module.exports = {
 
   baseLightColors: Object.assign({}, baseColors, {
     yellow: baseLightText,
+    cyan: cyanLight,
     blue: '143ccd',
   })
 }
