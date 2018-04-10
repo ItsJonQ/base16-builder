@@ -1,0 +1,27 @@
+scheme: "Palegrey"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+# dark
+base00: "303030"
+base01: "343434"
+base02: "4D4D4D"
+base03: "6C6C6C"
+
+# light
+base04: "BEBEBE"
+base05: "DCDCDC"
+base06: "E7E7E7"
+base07: "EEEEEE"
+
+# colors
+base08: "FF5A90"
+base09: "F78C6C"
+base0A: "FFC98B"
+base0B: "8DC891"
+base0C: "8390F1"
+base0D: "82B1FF"
+base0E: "C792EA"
+base0F: "FF5A90"
