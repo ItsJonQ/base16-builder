@@ -1,0 +1,37 @@
+scheme: "VS Blue"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+# dark
+base00: "002451"
+base01: "002758"
+base02: "003A82"
+base03: "0051B6"
+
+# light
+base04: "BBBBBB"
+base05: "DCDCDC"
+base06: "F3F3F3"
+base07: "FFFFFF"
+
+# colors
+base08: "C88CBE"
+base09: "CE9178"
+base0A: "DCDCAA"
+base0B: "4EC9B0"
+base0C: "9CDCFE"
+base0D: "569CD6"
+base0E: "C88CBE"
+base0F: "C88CBE"
+
+# colors (light)
+base08Light: "B42F24"
+base09Light: "8D4CCB"
+base0ALight: "2459C5"
+base0BLight: "459730"
+base0CLight: "2459C5"
+base0DLight: "143CCD"
+base0ELight: "8D4CCB"
+base0FLight: "B42F24"
