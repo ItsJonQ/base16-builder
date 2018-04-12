@@ -1,0 +1,27 @@
+scheme: "Monokai"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+# dark
+base00: "272822"
+base01: "2A2B25"
+base02: "3E4036"
+base03: "585A4C"
+
+# light
+base04: "CBC2B8"
+base05: "E5E0DB"
+base06: "EEEBE8"
+base07: "F4F2F0"
+
+# colors
+base08: "F72D73"
+base09: "FC9633"
+base0A: "E6DB74"
+base0B: "A8E040"
+base0C: "6CEED5"
+base0D: "66D9EF"
+base0E: "AE81FF"
+base0F: "F72D73"
