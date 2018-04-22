@@ -1,0 +1,33 @@
+scheme: "Slate"
+author: "Jon Q (https://jonquach.com)"
+
+monochrome: true
+  
+
+cursor: "50E3C2"
+  
+
+cursorText: "000000"
+  
+
+# dark
+base00: "292929"
+base01: "2C2C2C"
+base02: "424242"
+base03: "5C5C5C"
+
+# light
+base04: "BEBEBE"
+base05: "DCDCDC"
+base06: "E7E7E7"
+base07: "EEEEEE"
+
+# colors
+base08: "EEEEEE"
+base09: "EEEEEE"
+base0A: "EEEEEE"
+base0B: "EEEEEE"
+base0C: "EEEEEE"
+base0D: "EEEEEE"
+base0E: "EEEEEE"
+base0F: "EEEEEE"
