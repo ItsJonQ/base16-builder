@@ -1,9 +1,9 @@
-scheme: "BLK"
+scheme: "BP"
 author: "Jon Q (http://jonquach.com)"
 monochrome: true
 plus: true
-cursor: "50E3C2"
-# cursor: "ff0080"
+# cursor: "50E3C2"
+cursor: "ff0080"
 cursorText: "000000"
 
 base00: "000000" # shade 1
