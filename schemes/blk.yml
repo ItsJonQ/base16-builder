@@ -3,11 +3,10 @@ author: "Jon Q (http://jonquach.com)"
 # monochrome: true
 # plus: true
 
-# cursor: "50E3C2"
-# cursorText: "000000"
-
-cursor: "3884d7"
-cursorText: "ffffff"
+cursor: "50E3C2"
+cursorText: "000000"
+# cursor: "3884d7"
+# cursorText: "ffffff"
 vimText: "ffffff"
 vimLightText: "000000"
 
