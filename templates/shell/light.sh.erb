@@ -57,7 +57,11 @@ color21="<%= split_by_slash(@base["0F"]["hex"]) %>" # Base 06
 <% else %>
 color21="<%= split_by_slash(@base["01"]["hex"]) %>" # Base 06
 <% end %>
-<% if @monochrome %>
+<% if @vimLightText %>
+# vimLightText
+color_foreground="<%= split_by_slash(@base["00"]["hex"]) %>" # Base 05
+color_background="<%= split_by_slash(@base["07"]["hex"]) %>" # Base 00
+<% elsif @monochrome %>
 color_foreground="<%= split_by_slash(@base["00"]["hex"]) %>" # Base 05
 color_background="<%= split_by_slash(@base["0F"]["hex"]) %>" # Base 00
 <% else %>
@@ -113,8 +117,13 @@ printf $printf_template 21 $color21
 if [ -n "$ITERM_SESSION_ID" ]; then
   # iTerm2 proprietary escape codes
   <% if @monochrome %>
+  <% if @vimLightText %>
+  printf $printf_template_custom Pg <%= @base["00"]["hex"] %> # forground
+  printf $printf_template_custom Ph <%= @base["07"]["hex"] %> # background
+  <% else %>
   printf $printf_template_custom Pg <%= @base["00"]["hex"] %> # forground
   printf $printf_template_custom Ph <%= @base["0F"]["hex"] %> # background
+  <% end %>
   printf $printf_template_custom Pi <%= @base["00"]["hex"] %> # bold color
   printf $printf_template_custom Pj <%= @base["05"]["hex"] %> # selection color
   printf $printf_template_custom Pk <%= @base["00"]["hex"] %> # selected text color

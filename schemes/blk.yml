@@ -1,13 +1,15 @@
 scheme: "BLK"
 author: "Jon Q (http://jonquach.com)"
-monochrome: true
-plus: true
+# monochrome: true
+# plus: true
 
 # cursor: "50E3C2"
 # cursorText: "000000"
 
 cursor: "3884d7"
 cursorText: "ffffff"
+vimText: "ffffff"
+vimLightText: "000000"
 
 base00: "000000" # shade 1
 base01: "101010" # shade 1
@@ -19,11 +21,22 @@ base05: "ececec" # shade 2
 base06: "f5f5f5" # shade 2
 base07: "ffffff" # shade 2
 
-base08: "ffffff" # red
-base09: "ffffff" # orange
-base0A: "ffffff" # yellow
-base0B: "ffffff" # green
-base0C: "ffffff" # cyan
-base0D: "ffffff" # blue
-base0E: "ffffff" # magenta
-base0F: "ffffff" # dark red
+# colors
+base08: "EE475F"
+base09: "F828EB"
+base0A: "C8DCFF"
+base0B: "00CA35"
+base0C: "C8DCFF"
+base0D: "3CA0FF"
+base0E: "F828EB"
+base0F: "EE475F"
+
+# colors (light)
+base08Light: "B42F24"
+base09Light: "8D4CCB"
+base0ALight: "2459C5"
+base0BLight: "459730"
+base0CLight: "2459C5"
+base0DLight: "143CCD"
+base0ELight: "8D4CCB"
+base0FLight: "B42F24"

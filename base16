@@ -119,6 +119,9 @@ class Theme
     @statusline_text = scheme_data["statusline_text"]
     @statusline_nc_text = scheme_data["statusline_nc_text"]
 
+    @vimText = false
+    @vimLightText = false
+
     if scheme_data.key?("monochrome")
       @monochrome = scheme_data["monochrome"]
     end
@@ -133,6 +136,14 @@ class Theme
 
     if scheme_data.key?("cursorText")
       @cursorText = scheme_data["cursorText"]
+    end
+
+    if scheme_data.key?("vimText")
+      @vimText = scheme_data["vimText"]
+    end
+
+    if scheme_data.key?("vimLightText")
+      @vimLightText = scheme_data["vimLightText"]
     end
 
     if scheme_data.key?("magic")
@@ -215,6 +226,29 @@ class Theme
         "srgb" => to_srgb(hex)
       }
     end
+
+    if @vimText
+      hex = @vimText
+      @base["vimText"] = {
+        "hex" => hex,
+        "hexbgr" => to_hex_bgr(hex),
+        "dhex" => to_dhex(hex),
+        "rgb" => to_rgb(hex),
+        "srgb" => to_srgb(hex)
+      }
+    end
+
+    if @vimLightText
+      hex = @vimLightText
+      @base["vimLightText"] = {
+        "hex" => hex,
+        "hexbgr" => to_hex_bgr(hex),
+        "dhex" => to_dhex(hex),
+        "rgb" => to_rgb(hex),
+        "srgb" => to_srgb(hex)
+      }
+    end
+
   end
 
   def create_output_files
