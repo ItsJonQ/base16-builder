@@ -147,7 +147,9 @@ const withTemplate = props => {
     cursor,
     cursorText,
     monochrome,
-    name
+    name,
+    vimText,
+    vimLightText
   } = props
   const palette = makeBase16Palette(props)
 
@@ -162,6 +164,13 @@ const withTemplate = props => {
     cursorText: "${cursorText}"
   ` : ''
 
+  const outputVimText = vimText ? `
+    vimText: "${vimText}"
+  ` : ''
+
+  const outputVimLightText = vimLightText ? `
+    vimLightText: "${vimLightText}"
+  ` : ''
 
   const outputLight = palette.base08Light ? `
     # colors (light)
@@ -181,6 +190,8 @@ const withTemplate = props => {
     ${outputMonochrome}
     ${outputCursor}
     ${outputCursorText}
+    ${outputVimText}
+    ${outputVimLightText}
 
     # dark
     base00: "${palette.base00}"

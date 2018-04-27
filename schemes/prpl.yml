@@ -1,11 +1,14 @@
 scheme: "PRPL"
 author: "Jon Q (https://jonquach.com)"
 
-# cursor: "50E3C2"
-# cursorText: "000000"
-vimText: "EFF1F5"
-vimLightText: "292D3E"
 
+
+
+vimText: "f4f6fa"
+  
+
+vimLightText: "292D3E"
+  
 
 # dark
 base00: "292D3E"
@@ -14,10 +17,10 @@ base02: "424863"
 base03: "5C658B"
 
 # light
-base04: "B3BDD0"
-base05: "D9DDE7"
-base06: "E6E9EF"
-base07: "EFF1F5"
+base04: "B0BEDB"
+base05: "DBE1EE"
+base06: "EAEEF5"
+base07: "F4F6FA"
 
 # colors
 base08: "FF5A90"
@@ -28,3 +31,13 @@ base0C: "8390F1"
 base0D: "82B1FF"
 base0E: "C792EA"
 base0F: "FF5A90"
+
+# colors (light)
+base08Light: "FF3879"
+base09Light: "F5724A"
+base0ALight: "FFB764"
+base0BLight: "76BD7B"
+base0CLight: "6272ED"
+base0DLight: "5B99FF"
+base0ELight: "B772E4"
+base0FLight: "FF3879"
