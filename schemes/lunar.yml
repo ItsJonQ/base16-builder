@@ -1,0 +1,43 @@
+scheme: "Lunar"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+vimText: "fdf6e3"
+  
+
+vimLightText: "002b36"
+  
+
+# dark
+base00: "073642"
+base01: "083B48"
+base02: "0B566A"
+base03: "107995"
+
+# light
+base04: "C8C7BB"
+base05: "EEE8D6"
+base06: "F8F0DD"
+base07: "FDF6E3"
+
+# colors
+base08: "FF5A90"
+base09: "F78C6C"
+base0A: "FFC98B"
+base0B: "8DC891"
+base0C: "8390F1"
+base0D: "82B1FF"
+base0E: "C792EA"
+base0F: "FF5A90"
+
+# colors (light)
+base08Light: "FF3879"
+base09Light: "F5724A"
+base0ALight: "FFB764"
+base0BLight: "76BD7B"
+base0CLight: "6272ED"
+base0DLight: "5B99FF"
+base0ELight: "B772E4"
+base0FLight: "FF3879"
