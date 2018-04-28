@@ -1,0 +1,43 @@
+scheme: "Solar"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+vimText: "fdf6e3"
+  
+
+vimLightText: "002b36"
+  
+
+# dark
+base00: "002B36"
+base01: "002F3B"
+base02: "004556"
+base03: "006179"
+
+# light
+base04: "F7D989"
+base05: "FBEBC1"
+base06: "FCF2D6"
+base07: "FDF6E3"
+
+# colors
+base08: "FF5A90"
+base09: "F78C6C"
+base0A: "FFC98B"
+base0B: "8DC891"
+base0C: "8390F1"
+base0D: "82B1FF"
+base0E: "C792EA"
+base0F: "FF5A90"
+
+# colors (light)
+base08Light: "FF3879"
+base09Light: "F5724A"
+base0ALight: "FFB764"
+base0BLight: "76BD7B"
+base0CLight: "6272ED"
+base0DLight: "5B99FF"
+base0ELight: "B772E4"
+base0FLight: "FF3879"
