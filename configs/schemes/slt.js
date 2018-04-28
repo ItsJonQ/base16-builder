@@ -2,11 +2,11 @@ const colors = require('../colors/subtle')
 const baseColors = colors.baseColors
 const baseLightColors = colors.baseLightColors
 
-const baseDark = '2c2634'
+const baseDark = '292D3E'
 const baseLight = 'f4f6fa'
 
 module.exports = {
-  name: 'PRPL',
+  name: 'SLT',
 
   vimText: baseLight,
   vimLightText: baseDark,

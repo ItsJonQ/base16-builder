@@ -1,4 +1,4 @@
-scheme: "PRPL"
+scheme: "SLT"
 author: "Jon Q (https://jonquach.com)"
 
 
@@ -7,14 +7,14 @@ author: "Jon Q (https://jonquach.com)"
 vimText: "f4f6fa"
   
 
-vimLightText: "2c2634"
+vimLightText: "292D3E"
   
 
 # dark
-base00: "2C2634"
-base01: "302938"
-base02: "463D53"
-base03: "635675"
+base00: "292D3E"
+base01: "2C3143"
+base02: "424863"
+base03: "5C658B"
 
 # light
 base04: "B0BEDB"
