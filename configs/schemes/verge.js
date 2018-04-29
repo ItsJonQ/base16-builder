@@ -8,8 +8,8 @@ const baseLight = 'fdf6e3'
 module.exports = {
   name: 'Verge',
 
-  cursor: '50E3C2',
-  cursorText: '000000',
+  cursor: 'ff0080',
+  cursorText: 'ffffff',
 
   vimText: baseLight,
   vimLightText: baseDark,
