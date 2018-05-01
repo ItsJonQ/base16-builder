@@ -25,8 +25,6 @@ module.exports = {
 
   baseLightColors: makeBaseLightColors(baseColors, {
     orange: baseDark,
-    green: vsBlue,
-    cyan: vsBlue,
     blue: baseDark
   })
 }
