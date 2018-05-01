@@ -4,6 +4,7 @@ const baseDark = '2c2634'
 const baseLight = 'f4f6fa'
 
 const baseColors = makeBaseColors()
+const vsBlue = '569CD6'
 
 module.exports = {
   name: 'Run',
@@ -24,7 +25,8 @@ module.exports = {
 
   baseLightColors: makeBaseLightColors(baseColors, {
     orange: baseDark,
-    green: '569CD6',
+    green: vsBlue,
+    cyan: vsBlue,
     blue: baseDark
   })
 }
