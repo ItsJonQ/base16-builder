@@ -1,0 +1,33 @@
+scheme: "Paledawn"
+author: "Jon Q (https://jonquach.com)"
+
+
+cursor: "ff0080"
+  
+
+cursorText: "ffffff"
+  
+
+
+
+# dark
+base00: "2C2634"
+base01: "302938"
+base02: "463D53"
+base03: "635675"
+
+# light
+base04: "B0BEDB"
+base05: "DBE1EE"
+base06: "EAEEF5"
+base07: "F4F6FA"
+
+# colors
+base08: "FF5A90"
+base09: "F78C6C"
+base0A: "FFC98B"
+base0B: "8DC891"
+base0C: "8390F1"
+base0D: "82B1FF"
+base0E: "C792EA"
+base0F: "FF5A90"
