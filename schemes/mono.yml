@@ -2,15 +2,15 @@ scheme: "Mono"
 author: "Jon Q (http://jonquach.com)"
 monochrome: true
 
-base00: "000000" # shade 1
-base01: "1c1c1c" # shade 1
-base02: "3c3c3c" # shade 1
-base03: "5c5c5c" # shade 1
+base00: "000000"
+base01: "0C0C0C"
+base02: "2C2C2C"
+base03: "4C4C4C"
 
-base04: "aaaaaa" # shade 2
-base05: "cccccc" # shade 2
-base06: "dddddd" # shade 2
-base07: "eeeeee" # shade 2
+base04: "BBBBBB"
+base05: "DCDCDC"
+base06: "E5E5E5"
+base07: "EEEEEE"
 
 base08: "eeeeee" # red
 base09: "eeeeee" # orange
