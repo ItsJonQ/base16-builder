@@ -1,4 +1,5 @@
 const baseColors = require('../colors/one')
+const baseLightColors = require('../colors/oneLight')
 
 module.exports = {
   name: 'One',
@@ -18,5 +19,7 @@ module.exports = {
   //   base07: 'eff1f5'
   // },
 
-  baseColors
+  baseColors,
+  baseLightColors
+
 }
