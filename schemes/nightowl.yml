@@ -1,0 +1,29 @@
+scheme: "NightOwl"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+
+
+# dark
+base00: "01121F"
+base01: "011422"
+base02: "021D32"
+base03: "022946"
+
+# light
+base04: "B3BDD0"
+base05: "D9DDE7"
+base06: "E6E9EF"
+base07: "EFF1F5"
+
+# colors
+base08: "FF5A90"
+base09: "F78C6C"
+base0A: "FFC98B"
+base0B: "8DC891"
+base0C: "8390F1"
+base0D: "82B1FF"
+base0E: "C792EA"
+base0F: "FF5A90"
