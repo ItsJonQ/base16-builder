@@ -1,0 +1,33 @@
+scheme: "Hype"
+author: "Jon Q (https://jonquach.com)"
+
+
+cursor: "ff0080"
+  
+
+cursorText: "ffffff"
+  
+
+
+
+# dark
+base00: "000000"
+base01: "0C0C0C"
+base02: "2C2C2C"
+base03: "4C4C4C"
+
+# light
+base04: "BBBBBB"
+base05: "ECECEC"
+base06: "F5F5F5"
+base07: "FFFFFF"
+
+# colors
+base08: "FF5A90"
+base09: "F78C6C"
+base0A: "FFC98B"
+base0B: "8DC891"
+base0C: "8390F1"
+base0D: "82B1FF"
+base0E: "C792EA"
+base0F: "FF5A90"

@@ -1,7 +1,7 @@
 const baseColors = require('../colors/pale')
 
 module.exports = {
-  name: 'Hype',
+  name: 'Paleblack',
 
   cursor: 'ff0080',
   cursorText: 'ffffff',
