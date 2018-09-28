@@ -9,8 +9,8 @@ const {
 module.exports = {
   name: 'VS',
 
-  cursor: '50E3C2',
-  cursorText: '000000',
+  // cursor: '50E3C2',
+  // cursorText: '000000',
 
   baseDark: '1e1e1e',
   baseLight: 'ffffff',
