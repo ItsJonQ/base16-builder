@@ -5,8 +5,8 @@ const baseLightColors = termColors.baseLightColors
 module.exports = {
   name: 'Paper',
 
-  cursor: '50E3C2',
-  cursorText: '000000',
+//   cursor: '50E3C2',
+//   cursorText: '000000',
 
   baseDark: '000000',
   baseLight: 'ffffff',
