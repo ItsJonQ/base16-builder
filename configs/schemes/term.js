@@ -1,8 +1,12 @@
+const darken = require('../utilities/color').darken
+
 const red = 'c41a15'
 const magenta = 'e400e1'
 const orange = 'eb8500'
-const cyan = '318495'
+// const cyan = '318495'
+const cyan = '56b6c2'
 const cyanLight = '606aa1'
+const yellow = 'f0c674'
 
 // const baseText = 'f3f3f3'
 // const baseLightText = '0c0c0c'
@@ -11,7 +15,7 @@ const baseText = baseLightText = cyan
 const baseColors = {
   red,
   orange: magenta,
-  yellow: baseText,
+  yellow,
   green: '00ca35',
   cyan,
   blue: '328cff',
@@ -43,7 +47,7 @@ module.exports = {
   baseColors,
 
   baseLightColors: Object.assign({}, baseColors, {
-    yellow: baseLightText,
+    yellow: darken(baseColors.yellow),
     cyan: cyanLight,
     blue: '143ccd',
   })
