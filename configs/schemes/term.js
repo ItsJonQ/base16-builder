@@ -15,7 +15,7 @@ const baseText = baseLightText = cyan
 const baseColors = {
   red,
   orange: magenta,
-  yellow,
+  yellow: baseText,
   green: '00ca35',
   cyan,
   blue: '328cff',
@@ -47,7 +47,7 @@ module.exports = {
   baseColors,
 
   baseLightColors: Object.assign({}, baseColors, {
-    yellow: darken(baseColors.yellow),
+    yellow: baseLightText,
     cyan: cyanLight,
     blue: '143ccd',
   })
