@@ -4,12 +4,12 @@ monochrome: true
 
 base00: "3e31a2" # shade 1
 base01: "483fa9" # shade 1
-base02: "5c53bd" # shade 1
+base02: "5249b3" # shade 1
 base03: "7a6dde" # shade 1
 
-base04: "8e81f2" # shade 2
-base05: "a295ff" # shade 2
-base06: "b6a9ff" # shade 2
+base04: "7a7dde" # shade 2
+base05: "8e81f2" # shade 2
+base06: "a295ff" # shade 2
 base07: "b6a9ff" # shade 2
 
 base08: "b6a9ff" # red
