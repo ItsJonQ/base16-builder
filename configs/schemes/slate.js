@@ -3,10 +3,10 @@ const baseLight = 'eeeeee'
 module.exports = {
   name: 'Slate',
   monochrome: true,
-  cursor: '50E3C2',
+  cursor: '289aff',
   cursorText: '000000',
 
-  baseDark: '292929',
+  baseDark: '141820',
   baseLight,
 
   baseColors: {
