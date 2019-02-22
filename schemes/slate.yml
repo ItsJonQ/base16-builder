@@ -1,7 +1,7 @@
 scheme: "Slate"
 author: "Jon Q (https://jonquach.com)"
 
-monochrome: true
+# monochrome: true
 cursor: "289aff"
 cursorText: "000000"
 
@@ -26,3 +26,13 @@ base0C: "FFFFFF"
 base0D: "FFFFFF"
 base0E: "FFFFFF"
 base0F: "FFFFFF"
+
+# colors (light)
+base08Light: "DB5660"
+base09Light: "141820"
+base0ALight: "141820"
+base0BLight: "8BBB68"
+base0CLight: "141820"
+base0DLight: "141820"
+base0ELight: "141820"
+base0FLight: "141820"
