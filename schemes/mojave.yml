@@ -1,13 +1,13 @@
-scheme: "iTerm"
+scheme: "Mojave"
 author: "Jon Q (http://jonquach.com)"
 
 cursor: "50E3C2"
 cursorText: "000000"
 
-base00: "282828" # shade 1
-base01: "3c3c3c" # shade 1
-base02: "4c4c4c" # shade 1
-base03: "5c5c5c" # shade 1
+base00: "1b1b1b" # shade 1
+base01: "282828" # shade 1
+base02: "3c3c3c" # shade 1
+base03: "4c4c4c" # shade 1
 
 base04: "aaaaaa" # shade 2
 base05: "cccccc" # shade 2
