@@ -1,0 +1,25 @@
+scheme: "xpurple"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+plus: true
+
+# dark
+base00: "000000"
+base01: "111111"
+base02: "222222"
+base03: "333333"
+
+# light
+base04: "f555ff"
+base05: "f555ff"
+base06: "f555ff"
+base07: "f555ff"
+
+base08: "E06C75" # red
+base09: "f555ff" # orange
+base0A: "f555ff" # yellow
+base0B: "f555ff" # green
+base0C: "f555ff" # cyan
+base0D: "f555ff" # blue
+base0E: "f555ff" # magenta
+base0F: "f555ff" # dark red

@@ -1,0 +1,25 @@
+scheme: "xblue"
+author: "Jon Q (http://jonquach.com)"
+monochrome: true
+plus: true
+
+# dark
+base00: "000000"
+base01: "111111"
+base02: "222222"
+base03: "333333"
+
+# light
+base04: "82B1FF"
+base05: "82B1FF"
+base06: "82B1FF"
+base07: "82B1FF"
+
+base08: "f55fff" # red
+base09: "82B1FF" # orange
+base0A: "82B1FF" # yellow
+base0B: "82B1FF" # green
+base0C: "82B1FF" # cyan
+base0D: "82B1FF" # blue
+base0E: "82B1FF" # magenta
+base0F: "82B1FF" # dark red
