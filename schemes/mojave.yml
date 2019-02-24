@@ -9,20 +9,20 @@ base01: "282828" # shade 1
 base02: "3c3c3c" # shade 1
 base03: "4c4c4c" # shade 1
 
-base04: "aaaaaa" # shade 2
-base05: "cccccc" # shade 2
-base06: "dddddd" # shade 2
-base07: "eeeeee" # shade 2
+base04: "bbbbbb" # shade 2
+base05: "dddddd" # shade 2
+base06: "eeeeee" # shade 2
+base07: "ffffff" # shade 2
 
 # colors
 base08: "E06C75" # red
-base09: "eeeeee"
-base0A: "eeeeee"
+base09: "ffffff"
+base0A: "ffffff"
 base0B: "98C379" # green
-base0C: "eeeeee"
-base0D: "eeeeee"
-base0E: "eeeeee"
-base0F: "eeeeee"
+base0C: "ffffff"
+base0D: "ffffff"
+base0E: "ffffff"
+base0F: "ffffff"
 
 # colors (light)
 base08Light: "DB5660"
