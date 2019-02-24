@@ -9,10 +9,10 @@ base01: "282828" # shade 1
 base02: "3c3c3c" # shade 1
 base03: "4c4c4c" # shade 1
 
-base04: "bbbbbb" # shade 2
-base05: "dddddd" # shade 2
-base06: "eeeeee" # shade 2
-base07: "ffffff" # shade 2
+base04: "cfcfcf"
+base05: "ECECEC"
+base06: "F7F7F7"
+base07: "FFFFFF"
 
 # colors
 base08: "E06C75" # red
