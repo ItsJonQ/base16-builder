@@ -21,5 +21,7 @@ git commit -m "Update base16-vim"
 git push
 cd ~/.vim/bundle/base16-vim
 git pull
+cd ~/.vim/plugged/base16-vim
+git pull
 
 cd ~/base16-builder
