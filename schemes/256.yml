@@ -1,0 +1,38 @@
+scheme: "256"
+author: "Jon Q (http://jonquach.com)"
+
+# monochrome: true
+cursor: "289aff"
+cursorText: "000000"
+
+# dark
+base00: "000000"
+base01: "121212"
+base02: "262626"
+base03: "3a3a3a"
+
+# light
+base04: "d0d0d0"
+base05: "e4e4e4"
+base06: "EEEEEE"
+base07: "FFFFFF"
+
+# colors
+base08: "ff0000" # red
+base09: "FFFFFF"
+base0A: "FFFFFF"
+base0B: "00ff00" # green
+base0C: "FFFFFF"
+base0D: "FFFFFF"
+base0E: "FFFFFF"
+base0F: "FFFFFF"
+
+# colors (light)
+base08Light: "ff0000"
+base09Light: "000000"
+base0ALight: "000000"
+base0BLight: "00ff00"
+base0CLight: "000000"
+base0DLight: "000000"
+base0ELight: "000000"
+base0FLight: "000000"

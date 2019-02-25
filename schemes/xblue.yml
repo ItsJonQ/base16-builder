@@ -10,16 +10,16 @@ base02: "222222"
 base03: "333333"
 
 # light
-base04: "82B1FF"
-base05: "82B1FF"
-base06: "82B1FF"
-base07: "82B1FF"
+base04: "0ccfff"
+base05: "0ccfff"
+base06: "0ccfff"
+base07: "0ccfff"
 
 base08: "f55fff" # red
-base09: "82B1FF" # orange
-base0A: "82B1FF" # yellow
-base0B: "82B1FF" # green
-base0C: "82B1FF" # cyan
-base0D: "82B1FF" # blue
-base0E: "82B1FF" # magenta
-base0F: "82B1FF" # dark red
+base09: "0ccfff" # orange
+base0A: "0ccfff" # yellow
+base0B: "0ccfff" # green
+base0C: "0ccfff" # cyan
+base0D: "0ccfff" # blue
+base0E: "0ccfff" # magenta
+base0F: "0ccfff" # dark red
