@@ -2,8 +2,8 @@ scheme: "256"
 author: "Jon Q (http://jonquach.com)"
 
 # monochrome: true
-# cursor: "289aff"
-# cursorText: "000000"
+cursor: "808080"
+cursorText: "ffffff"
 
 # dark
 base00: "000000"
