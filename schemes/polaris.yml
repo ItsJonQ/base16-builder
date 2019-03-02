@@ -14,7 +14,7 @@ base06: "ffffff"
 base07: "ffffff"
 
 # colors
-base08: "DE3618" # red
+base08: "ff5722" # red
 base09: "ffffff"
 base0A: "ffffff"
 base0B: "50B83C" # green
@@ -24,7 +24,7 @@ base0E: "ffffff"
 base0F: "ffffff"
 
 # colors (light)
-base08Light: "DE3618"
+base08Light: "ff5722"
 base09Light: "00044c"
 base0ALight: "00044c"
 base0BLight: "50B83C"
