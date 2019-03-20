@@ -1,0 +1,39 @@
+scheme: "Gotham"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+
+
+# dark
+base00: "11151C"
+base01: "12171E"
+base02: "1B222D"
+base03: "262F3F"
+
+# light
+base04: "4C8C9E"
+base05: "5D9FB1"
+base06: "66A5B5"
+base07: "6CA8B8"
+
+# colors
+base08: "3E7280"
+base09: "5093A5"
+base0A: "5093A5"
+base0B: "36B98E"
+base0C: "5093A5"
+base0D: "36B98E"
+base0E: "36B98E"
+base0F: "3E7280"
+
+# colors (light)
+base08Light: "181D27"
+base09Light: "141820"
+base0ALight: "141820"
+base0BLight: "36B98E"
+base0CLight: "141820"
+base0DLight: "36B98E"
+base0ELight: "36B98E"
+base0FLight: "181D27"
