@@ -1,0 +1,39 @@
+scheme: "G3"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+
+
+# dark
+base00: "141820"
+base01: "161A23"
+base02: "202633"
+base03: "2D3648"
+
+# light
+base04: "BDBDD3"
+base05: "E3E3EC"
+base06: "F0F0F5"
+base07: "F9F9FB"
+
+# colors
+base08: "9090B5"
+base09: "C9C9DB"
+base0A: "C9C9DB"
+base0B: "D06935"
+base0C: "C9C9DB"
+base0D: "D06935"
+base0E: "D06935"
+base0F: "9090B5"
+
+# colors (light)
+base08Light: "1C222D"
+base09Light: "171C25"
+base0ALight: "171C25"
+base0BLight: "D06935"
+base0CLight: "171C25"
+base0DLight: "D06935"
+base0ELight: "D06935"
+base0FLight: "1C222D"
