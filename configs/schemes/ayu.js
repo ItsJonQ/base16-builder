@@ -1,4 +1,4 @@
-const baseColors = require('../colors/one')
+const baseColors = require('../colors/ayu')
 const baseLightColors = require('../colors/oneLight')
 
 module.exports = {
