@@ -1,0 +1,39 @@
+scheme: "Ayu Dark"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+
+
+# dark
+base00: "0B0E13"
+base01: "0C0F15"
+base02: "12161E"
+base03: "19202B"
+
+# light
+base04: "B3BDD0"
+base05: "D9DDE7"
+base06: "E6E9EF"
+base07: "EFF1F5"
+
+# colors
+base08: "E48C7D"
+base09: "F3AA67"
+base0A: "F8CD76"
+base0B: "C3E48A"
+base0C: "7ACDE3"
+base0D: "7ACDE3"
+base0E: "D0C1FA"
+base0F: "E48C7D"
+
+# colors (light)
+base08Light: "DB5660"
+base09Light: "CA775D"
+base0ALight: "EDBB5A"
+base0BLight: "8BBB68"
+base0CLight: "46AFBC"
+base0DLight: "49A3ED"
+base0ELight: "BD62D8"
+base0FLight: "DB5660"
