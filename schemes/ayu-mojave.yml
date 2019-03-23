@@ -1,0 +1,39 @@
+scheme: "Ayu Mojave"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+
+
+# dark
+base00: "1B1B1B"
+base01: "282828"
+base02: "3C3C3C"
+base03: "4C4C4C"
+
+# light
+base04: "CFCFCF"
+base05: "ECECEC"
+base06: "F7F7F7"
+base07: "F7F7F7"
+
+# colors
+base08: "E48C7D"
+base09: "F3AA67"
+base0A: "F8CD76"
+base0B: "C3E48A"
+base0C: "7ACDE3"
+base0D: "7ACDE3"
+base0E: "D0C1FA"
+base0F: "E48C7D"
+
+# colors (light)
+base08Light: "DB5660"
+base09Light: "CA775D"
+base0ALight: "EDBB5A"
+base0BLight: "8BBB68"
+base0CLight: "46AFBC"
+base0DLight: "49A3ED"
+base0ELight: "BD62D8"
+base0FLight: "DB5660"
