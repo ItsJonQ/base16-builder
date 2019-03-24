@@ -14,24 +14,20 @@ base06: "ffffff"
 base07: "ffffff"
 
 # colors
-# base08: "ff0000" # red
-base08: "E48C7D"
+base08: "ff0000" # red
 base09: "ffffff"
 base0A: "ffffff"
-# base0B: "00ff00" # green
-base0B: "C3E48A"
+base0B: "00ff00" # green
 base0C: "ffffff"
 base0D: "ffffff"
 base0E: "ffffff"
 base0F: "ffffff"
 
 # colors (light)
-# base08Light: "ff0000"
-base08Light: "DB5660"
+base08Light: "ff0000"
 base09Light: "411934"
 base0ALight: "411934"
-# base0BLight: "00ff00"
-base0BLight: "8BBB68"
+base0BLight: "00ff00"
 base0CLight: "411934"
 base0DLight: "411934"
 base0ELight: "411934"
