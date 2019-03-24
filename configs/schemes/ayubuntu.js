@@ -5,7 +5,7 @@ module.exports = {
   name: 'Ayu Buntu',
 
   baseDark: '411934',
-  baseLight: 'FBF3F7',
+  baseLight: 'ffffff',
 
   basePaletteColors: {
     base00: '411934',
@@ -15,8 +15,8 @@ module.exports = {
 
     base04: 'BB94A9',
     base05: 'EEE9ED',
-    base06: 'FBF3F7',
-    base07: 'FBF3F7',
+    base06: 'ffffff',
+    base07: 'ffffff',
   },
 
   baseColors,
