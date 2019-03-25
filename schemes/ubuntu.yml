@@ -1,6 +1,8 @@
 scheme: "Ubuntu"
 author: "Jon Q (https://jonquach.com)"
 
+monochrome: true
+
 # dark
 base00: "411934"
 base01: "4B233E"
