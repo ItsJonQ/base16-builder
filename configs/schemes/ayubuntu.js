@@ -3,6 +3,7 @@ const baseLightColors = require('../colors/oneLight')
 
 module.exports = {
   name: 'Ayu Buntu',
+  monochrome: true,
 
   baseDark: '411934',
   baseLight: 'ffffff',
