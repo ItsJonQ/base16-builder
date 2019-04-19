@@ -1,33 +1,39 @@
 scheme: "Zero"
-author: "Jon Q (http://jonquach.com)"
+author: "Jon Q (https://jonquach.com)"
 
-# base00: "1e1e1e"
-# base01: "252526"
-# base02: "333333"
-# base03: "555555"
 
-# base04: "bbbbbb"
-# base05: "dddddd"
-# base06: "f3f3f3"
-# base07: "ffffff"
 
-base00: "141820"
-base01: "181e28"
-base02: "3b4752"
-base03: "515f6a"
 
-base04: "a7adba"
-base05: "c0c5ce"
-base06: "dfe1e8"
-base07: "eff1f5"
+
+
+# dark
+base00: "000000"
+base01: "0C0C0C"
+base02: "2C2C2C"
+base03: "4C4C4C"
+
+# light
+base04: "BBBBBB"
+base05: "ECECEC"
+base06: "F5F5F5"
+base07: "FFFFFF"
 
 # colors
-base08: "e06c75" # red
-base09: "d08770" # orange
-# base09: "d09a6a" # orange
-base0A: "f0c674" # yellow
-base0B: "98c379" # green
-base0C: "56b6c2" # cyan
-base0D: "61afef" # blue
-base0E: "c678dd" # magenta
-base0F: "be5046" # dark red
+base08: "E06C75"
+base09: "D08770"
+base0A: "F0C674"
+base0B: "98C379"
+base0C: "56B6C2"
+base0D: "61AFEF"
+base0E: "C678DD"
+base0F: "E06C75"
+
+# colors (light)
+base08Light: "DB5660"
+base09Light: "CA775D"
+base0ALight: "EDBB5A"
+base0BLight: "8BBB68"
+base0CLight: "46AFBC"
+base0DLight: "49A3ED"
+base0ELight: "BD62D8"
+base0FLight: "DB5660"
