@@ -1,3 +1,5 @@
+const baseColors = require('../colors/outrun')
+
 module.exports = {
   name: 'Outblk',
 
@@ -16,14 +18,5 @@ module.exports = {
     base07: 'ffffff',
   },
 
-  baseColors: {
-    red: 'f706cf',
-    orange: 'ff6c11',
-    yellow: 'f9c80e',
-    green: '2de2e6',
-    cyan: '2de2e6',
-    blue: '1496ff',
-    magenta: 'f6019d',
-    darkRed: 'd40078',
-  },
+  baseColors
 };
