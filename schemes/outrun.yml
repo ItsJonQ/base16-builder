@@ -1,0 +1,29 @@
+scheme: "Outrun"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+
+
+# dark
+base00: "0D0221"
+base01: "160C2D"
+base02: "281C39"
+base03: "372A3F"
+
+# light
+base04: "B3BDD0"
+base05: "D9DDE7"
+base06: "E6E9EF"
+base07: "EFF1F5"
+
+# colors
+base08: "F706CF"
+base09: "FF6C11"
+base0A: "F9C80E"
+base0B: "2CFDA4"
+base0C: "2DE2E6"
+base0D: "1496FF"
+base0E: "F6019D"
+base0F: "D40078"
