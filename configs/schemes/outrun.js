@@ -10,7 +10,7 @@ module.exports = {
     base00: '0D0221',
     base01: '160c2d',
     base02: '281c39',
-    base03: '372a3f',
+    base03: '413548',
 
     base04: 'B3BDD0',
     base05: 'D9DDE7',
