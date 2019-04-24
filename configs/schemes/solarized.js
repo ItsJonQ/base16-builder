@@ -10,8 +10,14 @@ module.exports = {
   baseDark,
   baseLight,
 
-  basePaletteColors,
+  basePaletteColors: {
+    ...basePaletteColors,
+    base04: 'B3BDD0',
+    base05: 'D9DDE7',
+    base06: 'E6E9EF',
+    base07: 'EFF1F5',
+  },
 
   baseColors,
-  baseLightColors
+  baseLightColors,
 }

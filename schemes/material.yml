@@ -1,18 +1,39 @@
 scheme: "Material"
-author: "Jon Q (http://jonquach.com)"
-base00: "263238"
-base01: "2c3846"
-base02: "4f5c6b"
-base03: "657281"
-base04: "a7b3c2"
-base05: "c0c8d7"
-base06: "dfe1e8"
-base07: "eff1f5"
-base08: "e06c75"
-base09: "d08770"
-base0A: "f0c674"
-base0B: "98c379"
-base0C: "56b6c2"
-base0D: "61afef"
-base0E: "c678dd"
-base0F: "be5046"
+author: "Jon Q (https://jonquach.com)"
+
+
+
+
+
+
+# dark
+base00: "273237"
+base01: "2A363C"
+base02: "3E5058"
+base03: "58717C"
+
+# light
+base04: "B3BDD0"
+base05: "D9DDE7"
+base06: "E6E9EF"
+base07: "EFF1F5"
+
+# colors
+base08: "FF5A90"
+base09: "F78C6C"
+base0A: "FFC98B"
+base0B: "8DC891"
+base0C: "8390F1"
+base0D: "82B1FF"
+base0E: "C792EA"
+base0F: "FF5A90"
+
+# colors (light)
+base08Light: "FF3879"
+base09Light: "F5724A"
+base0ALight: "FFB764"
+base0BLight: "76BD7B"
+base0CLight: "6272ED"
+base0DLight: "5B99FF"
+base0ELight: "B772E4"
+base0FLight: "FF3879"
