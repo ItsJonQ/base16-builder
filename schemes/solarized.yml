@@ -1,4 +1,4 @@
-scheme: "Material"
+scheme: "Solarized"
 author: "Jon Q (https://jonquach.com)"
 
 
@@ -7,10 +7,10 @@ author: "Jon Q (https://jonquach.com)"
 
 
 # dark
-base00: "273237"
-base01: "2A363C"
-base02: "3E5058"
-base03: "58717C"
+base00: "002B36"
+base01: "0A3540"
+base02: "1E4954"
+base03: "325D68"
 
 # light
 base04: "B3BDD0"
