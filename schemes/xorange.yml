@@ -7,7 +7,7 @@ plus: true
 base00: "000000"
 base01: "111111"
 base02: "222222"
-base03: "333333"
+base03: "444444"
 
 # light
 base04: "FFAB40"
@@ -15,7 +15,7 @@ base05: "FFAB40"
 base06: "FFAB40"
 base07: "FFAB40"
 
-base08: "f55fff" # red
+base08: "e18d18" # red
 base09: "FFAB40" # orange
 base0A: "FFAB40" # yellow
 base0B: "FFAB40" # green

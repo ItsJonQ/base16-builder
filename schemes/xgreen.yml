@@ -7,7 +7,7 @@ plus: true
 base00: "000000"
 base01: "111111"
 base02: "222222"
-base03: "333333"
+base03: "444444"
 
 # light
 base04: "31f65c"
