@@ -1,12 +1,12 @@
 const darken = require('../utilities/color').darken
 
-const red = 'c41a15'
-const magenta = 'e400e1'
+const red = 'eb6f6b'
+const magenta = 'fd70fb'
 const orange = 'eb8500'
 // const cyan = '318495'
-const cyan = '56b6c2'
+const cyan = '67fdff'
 const cyanLight = '606aa1'
-const yellow = 'f0c674'
+const yellow = 'fffe72'
 const darkYellow = 'c7c626'
 
 // const baseText = 'f3f3f3'
@@ -16,8 +16,8 @@ const baseText = (baseLightText = cyan)
 const baseColors = {
   red,
   orange: magenta,
-  yellow: darkYellow,
-  green: '00ca35',
+  yellow,
+  green: '1ac428',
   cyan,
   blue: '328cff',
   magenta,
