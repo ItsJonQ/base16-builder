@@ -3,8 +3,8 @@ author: "Jon Q (http://jonquach.com)"
 # monochrome: true
 # plus: true
 keepColor: true
-cursor: "50E3C2"
-cursorText: "000000"
+# cursor: "50E3C2"
+# cursorText: "000000"
 
 base00: "141820" # shade 1
 base01: "1e222a" # shade 1
