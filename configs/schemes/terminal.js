@@ -19,7 +19,7 @@ const baseColors = {
   yellow,
   green: '1ac428',
   cyan,
-  blue: '328cff',
+  blue: '32b4ff',
   magenta,
   darkRed: red,
 }
