@@ -1,15 +1,17 @@
 scheme: "Default"
-author: "Chris Kempson (http://chriskempson.com)"
+author: "Jon Q (https://jonquach.com)"
 
+# dark
 base00: "181818"
-base01: "282828"
-base02: "383838"
-base03: "585858"
+base01: "1D1D1D"
+base02: "282828"
+base03: "484848"
 
-base04: "b8b8b8"
-base05: "d8d8d8"
-base06: "e8e8e8"
-base07: "f8f8f8"
+# light
+base04: "B8B8B8"
+base05: "E8E8E8"
+base06: "F2F2F2"
+base07: "F8F8F8"
 
 base08: "ab4642"
 base09: "dc9656"
