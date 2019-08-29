@@ -19,8 +19,8 @@ cp -a ~/base16-builder/output/vim/. ~/base16-vim/colors
 git add .
 git commit -m "Update base16-vim"
 git push
-cd ~/.vim/bundle/base16-vim
-git pull
+# cd ~/.vim/plugged/base16-vim
+# git pull
 cd ~/.vim/plugged/base16-vim
 git pull
 
