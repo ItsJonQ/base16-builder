@@ -1,5 +1,5 @@
-const { basePaletteColors } = require('../colors/solarized')
-const { baseColors, baseLightColors } = require('../colors/subtle')
+const { baseColors, basePaletteColors } = require('../colors/solarized')
+const { baseLightColors } = require('../colors/subtle')
 
 const baseDark = '002b36'
 const baseLight = 'fdf6e3'
@@ -19,5 +19,5 @@ module.exports = {
   },
 
   baseColors,
-  baseLightColors,
+  // baseLightColors,
 }
