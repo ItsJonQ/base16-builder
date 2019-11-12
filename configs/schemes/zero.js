@@ -1,24 +1,24 @@
-const baseColors = require('../colors/one')
-const baseLightColors = require('../colors/oneLight')
+const baseColors = require('../colors/one');
+const baseLightColors = require('../colors/oneLight');
 
 module.exports = {
-  name: 'Zero',
+	name: 'Zero',
 
-  baseDark: '000000',
-  baseLight: 'ffffff',
+	baseDark: '22252b',
+	baseLight: 'eff1f5',
 
-  basePaletteColors: {
-    base00: '000000',
-    base01: '0c0c0c',
-    base02: '2c2c2c',
-    base03: '4c4c4c',
+	// basePaletteColors: {
+	//   base00: '282C34',
+	//   base01: '2B3038',
+	//   base02: '404653',
+	//   base03: '5A6375',
 
-    base04: 'bbbbbb',
-    base05: 'ececec',
-    base06: 'f5f5f5',
-    base07: 'ffffff',
-  },
+	//   base04: 'a7adba',
+	//   base05: 'c0c5ce',
+	//   base06: 'dfe1e8',
+	//   base07: 'eff1f5'
+	// },
 
-  baseColors,
-  baseLightColors
-}
+	baseColors,
+	baseLightColors,
+};

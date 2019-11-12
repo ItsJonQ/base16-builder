@@ -1,4 +1,4 @@
-scheme: "Zero"
+scheme: "Chrome"
 author: "Jon Q (https://jonquach.com)"
 
 
@@ -7,10 +7,10 @@ author: "Jon Q (https://jonquach.com)"
 
 
 # dark
-base00: "22252B"
-base01: "25282F"
-base02: "363B45"
-base03: "4D5361"
+base00: "202124"
+base01: "232427"
+base02: "33353A"
+base03: "484A51"
 
 # light
 base04: "B3BDD0"
@@ -19,14 +19,14 @@ base06: "E6E9EF"
 base07: "EFF1F5"
 
 # colors
-base08: "E06C75"
-base09: "D08770"
-base0A: "F0C674"
-base0B: "98C379"
-base0C: "56B6C2"
-base0D: "61AFEF"
-base0E: "C678DD"
-base0F: "E06C75"
+base08: "E48C7D"
+base09: "F3AA67"
+base0A: "F8CD76"
+base0B: "C3E48A"
+base0C: "7ACDE3"
+base0D: "7ACDE3"
+base0E: "D0C1FA"
+base0F: "E48C7D"
 
 # colors (light)
 base08Light: "D43542"
