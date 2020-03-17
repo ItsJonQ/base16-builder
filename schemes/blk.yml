@@ -1,9 +1,9 @@
 scheme: "BLK"
 author: "Jon Q (http://jonquach.com)"
 
-# monochrome: true
-cursor: "289aff"
-cursorText: "000000"
+monochrome: true
+# cursor: "289aff"
+# cursorText: "000000"
 
 # dark
 base00: "000000"
@@ -18,21 +18,21 @@ base06: "F7F7F7"
 base07: "FFFFFF"
 
 # colors
-base08: "E06C75" # red
+base08: "EEB6F6" # red
 base09: "FFFFFF"
 base0A: "FFFFFF"
-base0B: "98C379" # green
+base0B: "1AC428" # green
 base0C: "FFFFFF"
 base0D: "FFFFFF"
 base0E: "FFFFFF"
 base0F: "FFFFFF"
 
 # colors (light)
-base08Light: "DB5660"
+base08Light: "EB6F6B"
 base09Light: "000000"
 base0ALight: "000000"
-base0BLight: "8BBB68"
-base0BLight: "8BBB68"
+base0BLight: "1AC428"
+base0BLight: "000000"
 base0CLight: "000000"
 base0DLight: "000000"
 base0ELight: "000000"
