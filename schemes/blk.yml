@@ -7,18 +7,18 @@ monochrome: true
 
 # dark
 base00: "000000"
-base01: "111111"
-base02: "222222"
-base03: "333333"
+base01: "0C0C0C"
+base02: "2C2C2C"
+base03: "4C4C4C"
 
 # light
-base04: "cfcfcf"
+base04: "BBBBBB"
 base05: "ECECEC"
-base06: "F7F7F7"
+base06: "F5F5F5"
 base07: "FFFFFF"
 
 # colors
-base08: "EEB6F6" # red
+base08: "EB6F6B" # red
 base09: "FFFFFF"
 base0A: "FFFFFF"
 base0B: "1AC428" # green
