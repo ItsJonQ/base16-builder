@@ -1,39 +1,39 @@
 scheme: "Zero"
-author: "Jon Q (https://jonquach.com)"
+author: "Jon Q (http://jonquach.com)"
 
-
-
-
-
+monochrome: true
+cursor: "7D46FC"
+cursorText: "FFFFFF"
 
 # dark
-base00: "22252B"
-base01: "25282F"
-base02: "363B45"
-base03: "4D5361"
+base00: "000000"
+base01: "0C0C0C"
+base02: "2C2C2C"
+base03: "4C4C4C"
 
 # light
-base04: "B3BDD0"
-base05: "D9DDE7"
-base06: "E6E9EF"
-base07: "EFF1F5"
+base04: "BBBBBB"
+base05: "ECECEC"
+base06: "F5F5F5"
+base07: "FFFFFF"
 
 # colors
-base08: "E06C75"
-base09: "D08770"
-base0A: "F0C674"
-base0B: "98C379"
-base0C: "56B6C2"
-base0D: "61AFEF"
-base0E: "C678DD"
-base0F: "E06C75"
+base08: "ff0032" # red
+base09: "FFFFFF"
+base0A: "FFFFFF"
+base0B: "00FF68" # green
+base0C: "FFFFFF"
+base0D: "FFFFFF"
+base0E: "FFFFFF"
+base0F: "FFFFFF"
 
 # colors (light)
-base08Light: "D43542"
-base09Light: "C05F40"
-base0ALight: "E9AC34"
-base0BLight: "77AF4E"
-base0CLight: "3B99A5"
-base0DLight: "2490E9"
-base0ELight: "AF42CF"
-base0FLight: "D43542"
+base08Light: "EB6F6B"
+base09Light: "000000"
+base0ALight: "000000"
+base0BLight: "1AC428"
+base0BLight: "000000"
+base0CLight: "000000"
+base0DLight: "000000"
+base0ELight: "000000"
+base0FLight: "000000"
