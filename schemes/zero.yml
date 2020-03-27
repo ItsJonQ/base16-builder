@@ -1,7 +1,7 @@
 scheme: "Zero"
 author: "Jon Q (http://jonquach.com)"
 
-monochrome: true
+# monochrome: true
 cursor: "7D46FC"
 cursorText: "FFFFFF"
 
@@ -28,11 +28,10 @@ base0E: "FFFFFF"
 base0F: "FFFFFF"
 
 # colors (light)
-base08Light: "EB6F6B"
+base08Light: "ff0032"
 base09Light: "000000"
 base0ALight: "000000"
 base0BLight: "1AC428"
-base0BLight: "000000"
 base0CLight: "000000"
 base0DLight: "000000"
 base0ELight: "000000"
