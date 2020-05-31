@@ -4,6 +4,8 @@ author: "Jon Q (http://jonquach.com)"
 # monochrome: true
 cursor: "7D46FC"
 cursorText: "FFFFFF"
+vimText: "FFFFFF"
+vimLightText: "0000000"
 
 # dark
 base00: "000000"
