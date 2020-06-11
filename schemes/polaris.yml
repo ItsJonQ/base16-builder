@@ -1,6 +1,11 @@
 scheme: "Polaris"
 author: "Jon Q (https://jonquach.com)"
 
+cursor: "7D46FC"
+cursorText: "FFFFFF"
+vimText: "FFFFFF"
+vimLightText: "0000000"
+
 # dark
 base00: "090E38"
 base01: "131842"
@@ -17,7 +22,7 @@ base07: "ffffff"
 base08: "ff5722" # red
 base09: "ffffff"
 base0A: "ffffff"
-base0B: "50B83C" # green
+base0B: "00FF68" # green
 base0C: "ffffff"
 base0D: "ffffff"
 base0E: "ffffff"
@@ -27,7 +32,7 @@ base0F: "ffffff"
 base08Light: "ff5722"
 base09Light: "00044c"
 base0ALight: "00044c"
-base0BLight: "50B83C"
+base0BLight: "1AC428"
 base0CLight: "00044c"
 base0DLight: "00044c"
 base0ELight: "00044c"
