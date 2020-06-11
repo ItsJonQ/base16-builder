@@ -19,21 +19,21 @@ base06: "ffffff"
 base07: "ffffff"
 
 # colors
-base08: "ff5722" # red
-base09: "ffffff"
-base0A: "ffffff"
+base08: "ff0032" # red
+base09: "FFFFFF"
+base0A: "FFFFFF"
 base0B: "00FF68" # green
-base0C: "ffffff"
-base0D: "ffffff"
-base0E: "ffffff"
-base0F: "ffffff"
+base0C: "FFFFFF"
+base0D: "FFFFFF"
+base0E: "FFFFFF"
+base0F: "FFFFFF"
 
 # colors (light)
-base08Light: "ff5722"
-base09Light: "00044c"
-base0ALight: "00044c"
+base08Light: "ff0032"
+base09Light: "000000"
+base0ALight: "000000"
 base0BLight: "1AC428"
-base0CLight: "00044c"
-base0DLight: "00044c"
-base0ELight: "00044c"
-base0FLight: "00044c"
+base0CLight: "000000"
+base0DLight: "000000"
+base0ELight: "000000"
+base0FLight: "000000"
