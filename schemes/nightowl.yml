@@ -1,11 +1,6 @@
 scheme: "NightOwl"
 author: "Jon Q (https://jonquach.com)"
 
-
-
-
-
-
 # dark
 base00: "011627"
 base01: "02213B"
@@ -13,10 +8,10 @@ base02: "02355E"
 base03: "034377"
 
 # light
-base04: "B3BDD0"
-base05: "D9DDE7"
-base06: "E6E9EF"
-base07: "EFF1F5"
+base04: "BBBBBB"
+base05: "ECECEC"
+base06: "F5F5F5"
+base07: "FFFFFF"
 
 # colors
 base08: "FF5A90"
@@ -26,4 +21,14 @@ base0B: "8DC891"
 base0C: "8390F1"
 base0D: "82B1FF"
 base0E: "C792EA"
+base0F: "FF5A90"
+
+# colors (light)
+base08: "FF5A90"
+base09: "BE5352"
+base0A: "BE5352"
+base0B: "00969C"
+base0C: "8390F1"
+base0D: "4573D9"
+base0E: "9A47C6"
 base0F: "FF5A90"
