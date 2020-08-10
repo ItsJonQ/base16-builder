@@ -1,0 +1,34 @@
+scheme: "NightHawk"
+author: "Jon Q (https://jonquach.com)"
+
+# dark
+base00: "1A1B1C"
+base01: "232425"
+base02: "313233"
+base03: "535455"
+
+# light
+base04: "BABBBC"
+base05: "DADBDC"
+base06: "F1F2F3"
+base07: "FDFEFF"
+
+# colors
+base08: "FF5A90"
+base09: "F78C6C"
+base0A: "FFC98B"
+base0B: "8DC891"
+base0C: "8390F1"
+base0D: "82B1FF"
+base0E: "C792EA"
+base0F: "FF5A90"
+
+# colors (light)
+base08Light: "FF5A90"
+base09Light: "BE5352"
+base0ALight: "BE5352"
+base0BLight: "00969C"
+base0CLight: "8390F1"
+base0DLight: "4573D9"
+base0ELight: "9A47C6"
+base0FLight: "FF5A90"
